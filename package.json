@@ -1,0 +1,14 @@
+{
+  "name": "magento-glossary",
+  "description": "A single page application for Magento Glossary",
+  "version": "0.1.0",
+  "devDependencies": {
+    "copyfiles": "^1.0.0",
+    "uglify-js": "^2.7.4"
+  },
+  "scripts": {
+    "copy": "echo '=> copying files' && copyfiles index.html js/*.min.js js/templates/* data/* css/* fonts/* _site/",
+    "minify": "echo '=>minifying files' && uglifyjs -c -o js/glossary.min.js js/glossary.js js/glossary.page.js js/glossary.page.filter.js js/glossary.page.renderer.js",
+    "convert": "echo '=>converting excel file to xml' && python scripts/xml-export.py -i scripts/example.xlsx -o data/test.xml"
+  }
+}

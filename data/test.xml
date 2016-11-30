@@ -1,0 +1,51 @@
+<glossary>
+  <term>
+    <uuid>123e4567-e89b-12d3-a456-426655440000</uuid>
+    <title>HTML</title>
+    <word-types>
+      <type>n</type>
+      <type>adj</type>
+    </word-types>
+    <synonyms>
+      <synonym>Hypertext Markup Language</synonym>
+    </synonyms>
+    <primary-source>Design</primary-source>
+    <content-tags>
+      <content-tag>Design</content-tag>
+      <content-tag>Business/Marketing</content-tag>
+    </content-tags>
+    <user-tags>
+      <user-tag>Developer</user-tag>
+    </user-tags>
+    <short-definition>An abbreviation for "HyperText Markup Language". A standard for tagging and structuring text, images, videos, and other media on a web page. HTML can be used on first reference. </short-definition>
+    <long-definition>An abbreviation for "HyperText Markup Language". A standard for tagging and structuring text, images, videos, and other media on a web page. HTML can be used on first reference.</long-definition>
+    <usage>Use "an" beforehand. Example: "an HTML file".</usage>
+    <reference-links></reference-links>
+  </term>
+  <term>
+    <uuid>f14f14fe-6822-4c49-8e0c-89b4c804339f</uuid>
+    <title>API</title>
+    <word-types>
+      <type>n</type>
+    </word-types>
+    <synonyms>
+      <synonym>application programming</synonym>
+      <synonym>interface</synonym>
+      <synonym>integration API</synonym>
+      <synonym>web API</synonym>
+    </synonyms>
+    <primary-source>DevDocs</primary-source>
+    <content-tags>
+      <content-tag>Programming</content-tag>
+    </content-tags>
+    <user-tags>
+      <user-tag>Internal</user-tag>
+      <user-tag>Developer</user-tag>
+      <user-tag>Merchant</user-tag>
+    </user-tags>
+    <short-definition>A software interface that lets third-party applications read and write to a system using programming language constructs or statements.</short-definition>
+    <long-definition>An abbreviation for "application program interface". A software interface that lets third-party applications read and write to a system using programming language constructs or statements.</long-definition>
+    <usage></usage>
+    <reference-links></reference-links>
+  </term>
+</glossary>

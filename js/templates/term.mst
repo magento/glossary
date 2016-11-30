@@ -1,0 +1,6 @@
+<div class="row term {{userTags}} {{contentTags}} {{primarySource}}" id="{{id}}">
+    <div class="col-sm-9 term-data">
+        <h3>{{title}} <small>({{wordTypes}})</small></h3>
+        <p class="long-definition">{{longDefinition}}</p>
+    </div>
+</div>

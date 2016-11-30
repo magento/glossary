@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Magento Glossary</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <h2>Magento Glossary</h2>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="row" id="term-groups"> 
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="btn-group" id="user-tags">
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="btn-group" id="content-tags">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="btn-group" id="primary-source">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-9" id="glossary-terms"></div>
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mustache.min.js"></script>
+    <script id="termGroupTemplate" type="x-tmpl-mustache">
+        <div class="term-group" id="{{group}}-container">
+            <h2 id="{{group}}">{{group}}</h2>
+            <a href="#">Back to Top</a>
+            <hr/>
+        </div>
+    </script>
+    <script id="termTemplate" type="x-tmpl-mustaches">
+        <div class="row term {{#userTagsArray}}user-tag-{{.}} {{/userTagsArray}}{{#contentTagsArray}}content-tag-{{.}} {{/contentTagsArray}}{{#primarySource}}source-{{primarySource}}{{/primarySource}}" id="{{id}}">
+            <div class="col-sm-9 term-data">
+                <h3>{{title}} <small>({{wordTypes}})<button class="btn btn-link btn-xs toggle-metadata" type="button">Show Metadata</button>
+</small></h3>
+                <div class="hidden metadata">
+                    <strong>UUID:</strong> {{id}} <br/>
+                    <strong>Primary Source:</strong> {{primarySource}} <br/>
+                    <strong>User Tags:</strong> {{#userTagsArray}}<span class="label label-default">{{.}}</span> {{/userTagsArray}} </br>
+                    <strong>Content Tags:</strong> {{#contentTagsArray}}<span class="label label-default">{{.}}</span> {{/contentTagsArray}}
+                </div>
+                <p class="definition"><span class="short-definition">{{shortDefinition}}</span>{{#longDefinition}}<span class="long-definition hidden">{{longDefinition}}</span>{{/longDefinition}}</p>
+                {{#longDefinition}}
+                <button class="btn btn-link btn-xs show-definition" type="button">More</button> 
+                {{/longDefinition}}
+            </div>
+        </div>
+    </script>
+    <script id="termGroupsTemplate" type="x-tmpl-mustaches">
+        {{#groups}}
+        <div class="col-md-1">
+            <button class="btn btn-default group-controller" type="button" containers="{{containers}}" id="{{id}}">{{buttonText}}</button>
+        </div> 
+        {{/groups}}
+    </script>
+    <script src="js/glossary.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            magento.glossary.init("./data/test.xml",magento.glossary.page.insertTerms); 
+            magento.glossary.page.init();
+        });
+
+    </script>
+
+</body>
+</html>
