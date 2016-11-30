@@ -2,6 +2,7 @@
 
 import sys,os,getopt
 import pyexcel as pe
+from classes.term import Term
 
 from lxml import etree as et
 
@@ -29,7 +30,7 @@ def main(base_dir, inputfile, outputfile):
 # @return a well-formed XML object
 def entryToXml(term):
    termRoot = et.Element("term")
-   uuid = et.SubElement(termRoot,"uuid").text = term['UUID']
+   uuid = et.SubElement(termRoot,"uuid").text = term['UUID / Anchor Tag']
    title = et.SubElement(termRoot,"title").text = term['Title']
    termRoot.append(elementXml("word-types","type",term['Word Type'].split(',')))
    termRoot.append(elementXml("synonyms","synonym",term['Synonyms'].split(',')))
