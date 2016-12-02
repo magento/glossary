@@ -40,6 +40,7 @@
 
     <xs:simpleType name="TypeType">
       <xs:restriction base="xs:string">
+          <xs:enumeration value=""/>
           <xs:enumeration value="glossary"/>
           <xs:enumeration value="usage"/>
       </xs:restriction>
@@ -93,6 +94,7 @@
             <xs:enumeration value="Marketing"/>
             <xs:enumeration value="Training"/>
             <xs:enumeration value="UserDocs"/>
+            <xs:enumeration value="UX"/>
         </xs:restriction>
     </xs:simpleType>
 
@@ -110,12 +112,13 @@
     <xs:simpleType name="ContentTagType">
             <xs:restriction base="xs:string">
                 <xs:enumeration value=""/>
-                <xs:enumeration value="Business/Marketing"/>
+                <xs:enumeration value="Business / Marketing"/>
                 <xs:enumeration value="Design"/>
                 <xs:enumeration value="Magento Software"/>
                 <xs:enumeration value="Pricing"/>
                 <xs:enumeration value="Product"/>
                 <xs:enumeration value="Programming"/>
+                <xs:enumeration value="Order"/>
             </xs:restriction>
     </xs:simpleType>
 
@@ -132,6 +135,7 @@
 
     <xs:simpleType name="UserTagType">
         <xs:restriction base="xs:string">
+            <xs:enumeration value=""/>
             <xs:enumeration value="Developer"/>
             <xs:enumeration value="Merchant"/>
             <xs:enumeration value="Internal"/>
