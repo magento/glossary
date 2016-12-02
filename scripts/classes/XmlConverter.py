@@ -19,8 +19,8 @@ class XmlConverter:
         termRoot = et.Element("term")
 
         termRoot.append(self._getUuid(term))
-        termRoot.append(self._getTypes(term))
         termRoot.append(self._getTitle(term))
+        termRoot.append(self._getTypes(term))
         termRoot.append(self._getForms(term))
         termRoot.append(self._getSynonyms(term))
         termRoot.append(self._getPrimarySource(term))
@@ -60,7 +60,7 @@ class XmlConverter:
 
         for formTypes in term.forms:
             for key,value in formTypes.items():
-                form = self._getListEntry("form","type",value)
+                form = self._getListEntry("form","form-type",value)
                 form.set("text",key)
                 forms.append(form)
 
