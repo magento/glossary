@@ -32,5 +32,9 @@ if __name__ == "__main__":
         for term in terms:
             converter.addTerm(term)
 
-        print converter.toString()
-
+        if(outputfile is None):
+            print converter.toString()
+        else:
+            f = open(outputfile,'w')
+            f.write(converter.toString(False))
+            f.close()
