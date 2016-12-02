@@ -47,16 +47,20 @@
 
     <xs:complexType name="FormTypes">
       <xs:sequence>
-        <xs:element name="forms" type="FormType" maxOccurs="unbounded"/>
+        <xs:element name="form" type="FormType" maxOccurs="unbounded"/>
       </xs:sequence>
     </xs:complexType>
 
     <xs:complexType name="FormType">
         <xs:sequence>
-            <xs:element name="form" type="xs:normalizedString">
+            <xs:element name="form-type" type="WordType" minOccurs="1" maxOccurs="7">
+              <xs:unique name="form-type_unique">
+                <xs:selector xpath="form-type"/>
+                <xs:field xpath="value"/>
+              </xs:unique>
             </xs:element>
         </xs:sequence>
-        <xs:attribute name="type" type="WordType"/>
+        <xs:attribute name="text" type="xs:string"/>
     </xs:complexType>
 
     <xs:simpleType name="WordType">
@@ -67,6 +71,7 @@
             <xs:enumeration value="n"/>
             <xs:enumeration value="prep"/>
             <xs:enumeration value="v"/>
+            <xs:enumeration value="prefix"/>
         </xs:restriction>
     </xs:simpleType>
 
