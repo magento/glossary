@@ -24,6 +24,8 @@ class TestSerializer(unittest.TestCase):
 
         data.append({"string":"order:[n, v]","expected":[{"order":["n","v"]}]})
         data.append({"string":"fall back:[v], fallback:[adj, n] ","expected":[{"fall back":["v"]},{"fallback":["adj","n"]}]})
+        data.append({"string":"24/7:[adj]","expected":[{"24/7":["adj"]}]})
+        data.append({"string":"360-degree:[adj]","expected":[{"360-degree":["adj"]}]})
 
         for testData in data:
             result = Serializer.unserializeForms(testData["string"])
