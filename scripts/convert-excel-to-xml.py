@@ -36,5 +36,5 @@ if __name__ == "__main__":
             print converter.toString()
         else:
             f = open(outputfile,'w')
-            f.write(converter.toString(False))
+            f.write(converter.toString())
             f.close()
