@@ -23,7 +23,7 @@ magento.glossary.page = {
                 })).appendTo("#glossary-terms");
             }
 
-            $(Mustache.render(termTemplate,terms[i])).insertBefore("#"+group+"-container a");
+            $(Mustache.render(termTemplate,terms[i])).insertBefore("#"+group+"-container .back-to-top");
         }
 
         magento.glossary.page.filter.applyUrlFilter();
