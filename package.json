@@ -13,6 +13,7 @@
     "minify": "echo '=>minifying files' && uglifyjs -c -o js/glossary.min.js js/glossary.js js/glossary.page.js js/glossary.page.filter.js js/glossary.page.renderer.js",
     "convert": "echo '=>converting excel file to xml' && python scripts/convert-excel-to-xml.py -i scripts/content-glossary.xlsx -o _data/content-glossary.xml",
     "watch": "./node_modules/.bin/browser-sync start --server '_site' --files '_site'",
-    "scss": "echo '=> generating css from scss' && node_modules/.bin/node-sass --output-style compressed scss/glossary.scss css/glossary.min.css"
+    "scss": "echo '=> generating css from scss' && node_modules/.bin/node-sass --output-style compressed scss/glossary.scss css/glossary.min.css",
+    "deploy": "echo '=> deploying glossary files' && npm run minify && npm run scss && npm run copy"
   }
 }
