@@ -1,3 +1,9 @@
+$semi_bold: 600;
+
+@import "import/term-group";
+@import "import/term";
+
 body {
     margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;
 }
