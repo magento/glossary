@@ -8,3 +8,11 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
+
+.anchor {
+    display: block;
+    height: 50px; /*same height as header*/
+    margin-top: -50px; /*same height as header*/
+    visibility: hidden;
+}
+

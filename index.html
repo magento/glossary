@@ -55,7 +55,8 @@
     <script src="js/mustache.min.js"></script>
     <script id="termGroupTemplate" type="x-tmpl-mustache">
         <div class="term-group" id="{{group}}-container">
-            <h2 id="{{group}}">{{group}}</h2>
+            <span class="anchor" id="{{group}}"></span>
+            <h2>{{group}}</h2>
             <div class="back-to-top clearfix">
                 <a class="pull-right" href="#">Back to Top</a>
             </div>
@@ -63,7 +64,8 @@
         </div>
     </script>
     <script id="termTemplate" type="x-tmpl-mustaches">
-        <div class="row term {{#userTagsArray}}user-tag-{{.}} {{/userTagsArray}}{{#contentTagsArray}}content-tag-{{.}} {{/contentTagsArray}}{{#primarySource}}source-{{primarySource}}{{/primarySource}}" id="{{id}}">
+        <div class="row term {{#userTagsArray}}user-tag-{{.}} {{/userTagsArray}}{{#contentTagsArray}}content-tag-{{.}} {{/contentTagsArray}}{{#primarySource}}source-{{primarySource}}{{/primarySource}}" >
+            <span class="anchor" id="{{id}}"></span>
             <div class="col-sm-9 term-data">
                 <h3>{{title}} <small>({{wordTypes}})<button class="btn btn-link btn-s toggle-metadata" type="button">Show Metadata</button>
 </small></h3>
