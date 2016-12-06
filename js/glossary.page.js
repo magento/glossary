@@ -10,6 +10,9 @@ magento.glossary.page = {
             terms = magento.glossary.terms;
         
         for(var i=0; i<terms.length; i++){
+            if(!terms[i].types.includes("glossary"))
+                continue;
+
             var group = terms[i].title.toUpperCase().charAt(0);
 
             var termTemplate = $('#termTemplate').html();

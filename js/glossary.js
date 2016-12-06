@@ -26,21 +26,60 @@ magento.glossary = {
     unserializeTerm: function(termXmlData) {
             var data = {};
 
+            //console.log(termXmlData);
+
             data.id = termXmlData.find("uuid").text();
             data.title = termXmlData.find("title").text();
-            data.wordTypes = termXmlData.find("word-types").text().trim().split(/\s+/).join(", ");
-            data.longDefinition = termXmlData.find("long-definition").text();
-            data.shortDefinition = termXmlData.find("short-definition").text();
-            data.userTagsArray = termXmlData.find("user-tags").text().trim().split(/\s+/).map(function(element){ 
-                return element.toLowerCase();
-            });
-            data.contentTagsArray = termXmlData.find("content-tags").text().trim().replace(/(\w)\s(\w)/,'$1-$2').split(/\s\s+/).map(function(element){
-                return element.toLowerCase();
-              });
+            data.types = magento.glossary.unserializeList(termXmlData.find("types type"));
+            data.forms = magento.glossary.unserializeFormTypes(termXmlData.find("form-types form"));
+            data.synonyms = magento.glossary.unserializeList(termXmlData.find("synonyms synonym"));
             data.primarySource = termXmlData.find("primary-source").text().toLowerCase();
+            data.contentTagsArray = magento.glossary.unserializeList(termXmlData.find("content-tags content-tag")); 
+            data.userTagsArray = magento.glossary.unserializeList(termXmlData.find("user-tags user-tag"));
+            data.shortDefinition = termXmlData.find("short-definition").text();
+            data.longDefinition = termXmlData.find("long-definition").text();
+            data.usage = termXmlData.find("usage").text();
+            data.referenceLinks = magento.glossary.unserializeReferenceLinks(termXmlData.find("reference-links reference-link"));
+
+            console.log(data);
 
             return data; 
         },
-    
+
+    unserializeList: function(xmlList) {
+            var list = [];
+
+            for(var i=0; i<xmlList.length; i++){
+                list.push(xmlList[i].textContent.toLowerCase());
+            }
+
+            return list;
+        },
+
+    unserializeFormTypes: function(forms) {
+            var formTypes = new Map();
+            
+            for(var i=0; i<forms.length; i++){
+                var types = $(forms[i]);
+                if(!formTypes.has(types.attr("text"))){
+                    formTypes.set(types.attr("text"),[]);
+                }
+                formTypes.set(types.attr("text"),magento.glossary.unserializeList($("form-type",types)));
+            };
+            return formTypes;
+        },
+
+    unserializeReferenceLinks: function(refLinks) {
+            var links = [];
+
+            for(var i=0; i<refLinks.length; i++){
+                var link = document.createElement("a");
+                link.href = $("location",refLinks[i])[0].textContent;
+                link.innerHTML = $("text",refLinks[i])[0].textContent;
+                links.push(link)
+            }
+
+            return links;
+        },
     
 }
