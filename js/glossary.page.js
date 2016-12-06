@@ -17,7 +17,8 @@ magento.glossary.page = {
 
             var termTemplate = $('#termTemplate').html();
             var termGroupTemplate = $('#termGroupTemplate').html();
-
+            var termTitleTemplate = $('#termTitleTemplate').html();
+           
             if($("#"+group+"-container").length==0)
             {
                 
@@ -25,6 +26,20 @@ magento.glossary.page = {
                     group: group,
                 })).appendTo("#glossary-terms");
             }
+
+            var forms = []
+            var keys = terms[i].forms.keys();
+
+            do{
+                iter = keys.next().value;
+
+                if(iter){
+                    forms.push({"form":iter,"types":terms[i].forms.get(iter)});
+                }
+                
+            }while(iter);
+
+            terms[i].forms = forms;
 
             $(Mustache.render(termTemplate,terms[i])).insertBefore("#"+group+"-container .back-to-top");
         }

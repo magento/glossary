@@ -67,13 +67,13 @@
         <div class="row term {{#userTagsArray}}user-tag-{{.}} {{/userTagsArray}}{{#contentTagsArray}}content-tag-{{.}} {{/contentTagsArray}}{{#primarySource}}source-{{primarySource}}{{/primarySource}}" >
             <span class="anchor" id="{{id}}"></span>
             <div class="col-sm-9 term-data">
-                <h3>{{title}} <small>({{wordTypes}})<button class="btn btn-link btn-s toggle-metadata" type="button">Show Metadata</button>
-</small></h3>
+                <h3>{{#forms}}{{form}} <small>({{types}})</small> {{/forms}}<button class="btn btn-link btn-s toggle-metadata" type="button">Show Metadata</button> </h3>
                 <div class="hidden metadata">
                     <strong>UUID:</strong> {{id}} <br/>
+                    <strong>Synonyms:</strong> {{synonyms}}<br/>
                     <strong>Primary Source:</strong> {{primarySource}} <br/>
-                    <strong>User Tags:</strong> {{#userTagsArray}}<span class="label label-default">{{.}}</span> {{/userTagsArray}} </br>
-                    <strong>Content Tags:</strong> {{#contentTagsArray}}<span class="label label-default">{{.}}</span> {{/contentTagsArray}}
+                    <strong>User Tags:</strong> {{#userTagsArray}}<code>{{.}}</code> {{/userTagsArray}} </br>
+                    <strong>Content Tags:</strong> {{#contentTagsArray}}<code>{{.}}</code> {{/contentTagsArray}}
                 </div>
                 <p class="definition"><span class="short-definition">{{shortDefinition}}</span>{{#longDefinition}}<span class="long-definition hidden">{{longDefinition}}</span>{{/longDefinition}}</p>
                 {{#longDefinition}}

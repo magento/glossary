@@ -50,7 +50,9 @@ magento.glossary = {
             var list = [];
 
             for(var i=0; i<xmlList.length; i++){
-                list.push(xmlList[i].textContent.toLowerCase());
+                content = xmlList[i].textContent.toLowerCase();
+                if(content)
+                    list.push(content);
             }
 
             return list;
@@ -61,10 +63,13 @@ magento.glossary = {
             
             for(var i=0; i<forms.length; i++){
                 var types = $(forms[i]);
-                if(!formTypes.has(types.attr("text"))){
-                    formTypes.set(types.attr("text"),[]);
+                var text = types.attr("text").trim();
+                if(text){
+                    if(!formTypes.has(text)){
+                        formTypes.set(text,[]);
+                    }
+                    formTypes.set(text,magento.glossary.unserializeList($("form-type",types)));
                 }
-                formTypes.set(types.attr("text"),magento.glossary.unserializeList($("form-type",types)));
             };
             return formTypes;
         },
