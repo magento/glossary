@@ -19,7 +19,7 @@ class Serializer:
     def unserializeForms(string):
         result = []
 
-        groups = re.findall("([\w\s\d/()-]+):\s*\[([^\]]+)\]",string)
+        groups = re.findall("([\.\w\s\d/()-]+):\s*\[([^\]]+)\]",string)
 
         for group in groups:
             result.append({group[0].strip():Serializer.unserializeList(group[1])})

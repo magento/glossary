@@ -27,6 +27,7 @@ class TestSerializer(unittest.TestCase):
         data.append({"string":"24/7:[adj]","expected":[{"24/7":["adj"]}]})
         data.append({"string":"360-degree:[adj]","expected":[{"360-degree":["adj"]}]})
         data.append({"string":"module (training):[n]","expected":[{"module (training)":["n"]}]})
+        data.append({"string":"robots.txt:[n]","expected":[{"robots.txt":["n"]}]})
 
         for testData in data:
             result = Serializer.unserializeForms(testData["string"])
