@@ -9,7 +9,7 @@
     "node-sass": "^3.13.0"
   },
   "scripts": {
-    "copy": "echo '=> copying files' && copyfiles index.html js/*.min.js js/templates/* css/* fonts/* _site/",
+    "copy": "echo '=> copying files' && copyfiles index.html js/*.min.js js/templates/* css/* fonts/* _site/ && copyfiles -f _data/content-glossary.xml _site/data/",
     "minify": "echo '=>minifying files' && uglifyjs -c -o js/glossary.min.js js/glossary.js js/glossary.page.js js/glossary.page.filter.js js/glossary.page.renderer.js",
     "convert": "echo '=>converting excel file to xml' && python scripts/convert-excel-to-xml.py -i scripts/content-glossary.xlsx -o _data/content-glossary.xml",
     "watch": "./node_modules/.bin/browser-sync start --server '_site' --files '_site'",
