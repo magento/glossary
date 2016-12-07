@@ -83,8 +83,9 @@
                     <strong>User Tags:</strong> {{#userTagsArray}}<code>{{.}}</code> {{/userTagsArray}} </br>
                     <strong>Content Tags:</strong> {{#contentTagsArray}}<code>{{.}}</code> {{/contentTagsArray}}
                 </div>
-                <p class="definition"><span class="short-definition">{{shortDefinition}}</span>{{#longDefinition}}<span class="long-definition hidden">{{longDefinition}}</span>{{/longDefinition}}</p>
+                <p class="definition short-definition">{{shortDefinition}}</p>
                 {{#longDefinition}}
+                <p class="definition long-definition hidden">{{longDefinition}}</p>
                 <button class="btn btn-link btn-s show-definition" type="button">More</button> 
                 {{/longDefinition}}
             </div>
