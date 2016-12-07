@@ -17,11 +17,7 @@ magento.glossary.page.filter = {
             }
         ],$("#user-tags"));
 
-        filter.appendTagFilter("Content Type","radio","content-tag","content-type",[
-            {
-                id: null,
-                text: "All"
-            },
+        filter.appendTagFilter("Content Type","checkbox","content-tag","content-type",[
             {
                 id: "business-marketing",
                 text: "Business/Marketing"
@@ -45,7 +41,11 @@ magento.glossary.page.filter = {
             {
                 id: "programming",
                 text: "Programming"
-            } 
+            },
+            {
+                id: "order",
+                text: "Order"
+            }
         ],$("#content-tags"));
 
         filter.appendTagFilter("Primary Source","radio","source","primary-source",[
@@ -69,6 +69,14 @@ magento.glossary.page.filter = {
                 id: "training",
                 text: "Training"
             },
+            {
+                id: "userdocs",
+                text: "UserDocs"
+            },
+            {
+                id: "ux",
+                text: "UX"
+            }
         ],$("#primary-source"));
 
     },

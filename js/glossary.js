@@ -34,7 +34,9 @@ magento.glossary = {
             data.forms = magento.glossary.unserializeFormTypes(termXmlData.find("form-types form"));
             data.synonyms = magento.glossary.unserializeList(termXmlData.find("synonyms synonym"));
             data.primarySource = termXmlData.find("primary-source").text().toLowerCase();
-            data.contentTagsArray = magento.glossary.unserializeList(termXmlData.find("content-tags content-tag")); 
+            data.contentTagsArray = magento.glossary.unserializeList(termXmlData.find("content-tags content-tag")).map(function(value){
+                return value.replace(/[\s\/]+/,"-");    
+            }); 
             data.userTagsArray = magento.glossary.unserializeList(termXmlData.find("user-tags user-tag"));
             data.shortDefinition = termXmlData.find("short-definition").text();
             data.longDefinition = termXmlData.find("long-definition").text();

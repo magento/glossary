@@ -1,6 +1,6 @@
 {{#groups}}
-    <div class="col-md-1">
+    <li>
         <a class="btn btn-link" role="button" href="#{{targetAnchor}}" id="{{id}}">{{buttonText}}</a>
-    </div> 
+    </li> 
 {{/groups}}
 
