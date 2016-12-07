@@ -38,8 +38,8 @@ magento.glossary = {
                 return value.replace(/[\s\/]+/,"-");    
             }); 
             data.userTagsArray = magento.glossary.unserializeList(termXmlData.find("user-tags user-tag"));
-            data.shortDefinition = termXmlData.find("short-definition").text();
-            data.longDefinition = termXmlData.find("long-definition").text();
+            data.shortDefinition = termXmlData.find("short-definition").text().replace(/(?:\r\n|\r|\n)/g, '<br />');
+            data.longDefinition = termXmlData.find("long-definition").text().replace(/(?:\r\n|\r|\n)/g, '<br />'); 
             data.usage = termXmlData.find("usage").text();
             data.referenceLinks = magento.glossary.unserializeReferenceLinks(termXmlData.find("reference-links reference-link"));
 
