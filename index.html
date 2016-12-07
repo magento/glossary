@@ -98,6 +98,16 @@
                             <th>Content Tags</th>
                             <td>{{#contentTagsArray}}<code>{{.}}</code> {{/contentTagsArray}}</td>
                         </tr>
+                        <tr>
+                            <th>Reference Links</th>
+                            <td>
+                                <ul class="reference-links">
+                                {{#referenceLinks}}
+                                <li><a href="{{location}}">{{text}}</a></li>
+                                {{/referenceLinks}}
+                                </ul>
+                            </td>
+                        </tr>
                     </table>
                 </div>
                 <p class="definition short-definition">{{{shortDefinition}}}</p>

@@ -76,9 +76,10 @@ magento.glossary = {
             var links = [];
 
             for(var i=0; i<refLinks.length; i++){
-                var link = document.createElement("a");
-                link.href = $("location",refLinks[i])[0].textContent;
-                link.innerHTML = $("text",refLinks[i])[0].textContent;
+                var link = {
+                    location: $("location",refLinks[i])[0].textContent, 
+                    text: $("text",refLinks[i])[0].textContent
+                };
                 links.push(link)
             }
 
