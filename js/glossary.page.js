@@ -44,6 +44,10 @@ magento.glossary.page = {
             $(Mustache.render(termTemplate,terms[i])).insertBefore("#"+group+"-container .back-to-top");
         }
 
+        if(target){
+            location.href="#"+target;
+        }
+
         magento.glossary.page.filter.applyUrlFilter();
 
         function metadataToggle(eventObject){

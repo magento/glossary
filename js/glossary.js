@@ -26,8 +26,6 @@ magento.glossary = {
     unserializeTerm: function(termXmlData) {
             var data = {};
 
-            //console.log(termXmlData);
-
             data.id = termXmlData.find("uuid").text();
             data.title = termXmlData.find("title").text();
             data.types = magento.glossary.unserializeList(termXmlData.find("types type"));
@@ -42,8 +40,6 @@ magento.glossary = {
             data.longDefinition = termXmlData.find("long-definition").text().replace(/(?:\r\n|\r|\n)/g, '<br />'); 
             data.usage = termXmlData.find("usage").text();
             data.referenceLinks = magento.glossary.unserializeReferenceLinks(termXmlData.find("reference-links reference-link"));
-
-            console.log(data);
 
             return data; 
         },
