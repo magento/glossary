@@ -78,7 +78,6 @@ magento.glossary.page.filter = {
                 text: "UX"
             }
         ],$("#primary-source"));
-
     },
 
     appendTagFilter: function(label, inputType, prefix, name, options,target){
@@ -92,8 +91,16 @@ magento.glossary.page.filter = {
             name: name,
             options: options,
         },function(html){
+            var filter = magento.glossary.page.filter;
             target.append(html);
-            $(".filter input").click(magento.glossary.page.filter.updateFilter);
+            $(".filter input").click(filter.updateFilter);
+
+            if(window.location.hash==""){
+                var filterSelectors = filter.getFilterSelectors(filter.getUrlParams());
+                for(var i=0; i<filterSelectors.length; i++){
+                    $("input#"+filterSelectors[i]).prop("checked",true);
+                }
+            }
         });
     },
 
@@ -125,6 +132,7 @@ magento.glossary.page.filter = {
 
         $(".term").removeClass("show").addClass("hidden");
 
+
         var filter = classList.map(function(element){
             if(element)
                 return "."+element;
@@ -147,19 +155,23 @@ magento.glossary.page.filter = {
 
         urlParams = filter.getUrlParams();
 
-        var filterSelector = [];
+        filter.applyFilters(magento.glossary.page.filter.getFilterSelectors(urlParams));
+    },
+
+    getFilterSelectors: function(urlParams) {
+        var filterSelectors = [];
 
         if(urlParams.source)
-            filterSelector.push("source-"+urlParams.source[0]);
+            filterSelectors.push("source-"+urlParams.source[0]);
 
         if(urlParams.audience){
             for(var i=0; i<urlParams.audience.length;i++)
-                filterSelector.push("user-tag-"+urlParams.audience[i]);
+                filterSelectors.push("user-tag-"+urlParams.audience[i]);
         }
 
         if(urlParams.content)
-            filterSelector.push("content-tag-"+urlParams.content[0]);
+            filterSelectors.push("content-tag-"+urlParams.content[0]);
 
-        filter.applyFilters(filterSelector);
+        return filterSelectors
     },
 }

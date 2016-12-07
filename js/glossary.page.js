@@ -21,7 +21,6 @@ magento.glossary.page = {
            
             if($("#"+group+"-container").length==0)
             {
-                
                 $(Mustache.render(termGroupTemplate,{
                     group: group,
                 })).appendTo("#glossary-terms");
@@ -44,11 +43,12 @@ magento.glossary.page = {
             $(Mustache.render(termTemplate,terms[i])).insertBefore("#"+group+"-container .back-to-top");
         }
 
-        if(target){
-            location.href="#"+target;
+        if(window.location.hash){
+            window.location.search = '';
+            window.location.href = window.location.hash;
         }
-
-        magento.glossary.page.filter.applyUrlFilter();
+        else
+            magento.glossary.page.filter.applyUrlFilter();
 
         function metadataToggle(eventObject){
             magento.glossary.page.toggleDisplay(eventObject.target,"Show Metadata","Hide Metadata", ".metadata");

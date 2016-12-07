@@ -127,10 +127,6 @@
     </script>
     <script src="js/glossary.min.js"></script>
     <script>
-        var target = window.location.hash,
-        target = target.replace('#', '');
-        window.location.hash = "";
-
         $(document).ready(function(){
             magento.glossary.init("data/content-glossary.xml",magento.glossary.page.insertTerms); 
             magento.glossary.page.init(); 
