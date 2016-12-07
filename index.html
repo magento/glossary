@@ -77,11 +77,28 @@
             <div class="col-sm-9 term-data">
                 <h3>{{#forms}}{{form}} <small>({{types}})</small> {{/forms}}<button class="btn btn-link btn-s toggle-metadata" type="button">Show Metadata</button> </h3>
                 <div class="hidden metadata">
-                    <strong>UUID:</strong> {{id}} <br/>
-                    <strong>Synonyms:</strong> {{synonyms}}<br/>
-                    <strong>Primary Source:</strong> {{primarySource}} <br/>
-                    <strong>User Tags:</strong> {{#userTagsArray}}<code>{{.}}</code> {{/userTagsArray}} </br>
-                    <strong>Content Tags:</strong> {{#contentTagsArray}}<code>{{.}}</code> {{/contentTagsArray}}
+                    <table class="table table-condensed table-striped table-bordered">
+                        <tr>
+                            <th>UUID</th>
+                            <td><a href="#{{id}}">{{id}}</a></td>
+                        </tr>
+                        <tr>
+                            <th>Synonyms</th>
+                            <td>{{synonyms}}</td>
+                        </tr>
+                        <tr>
+                            <th>Primary Source</th>
+                            <td>{{primarySource}}</td>
+                        </tr>
+                        <tr>
+                            <th>User Tags</th>
+                            <td>{{#userTagsArray}}<code>{{.}}</code> {{/userTagsArray}}</td>
+                        </tr>
+                        <tr>
+                            <th>Content Tags</th>
+                            <td>{{#contentTagsArray}}<code>{{.}}</code> {{/contentTagsArray}}</td>
+                        </tr>
+                    </table>
                 </div>
                 <p class="definition short-definition">{{shortDefinition}}</p>
                 {{#longDefinition}}
