@@ -1,3 +1,18 @@
 .term {
-    
+    .reference-link::after, .synonym::after {
+        content: ", ";
+    }
+
+    .reference-link:last-child::after, .synonym:last-child::after {
+        content:"";
+    }
+
+    .show-definition {
+        color: #337ab7;
+
+        &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        } 
+    }
 }

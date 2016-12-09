@@ -29,6 +29,9 @@ magento.glossary.page = {
             var forms = []
             var keys = terms[i].forms.keys();
 
+            if(terms[i].referenceLinks.length)
+                terms[i].showReferenceLinks = true
+
             do{
                 iter = keys.next().value;
 
