@@ -170,7 +170,8 @@ magento.glossary.page.filter = {
         }
 
         if(urlParams.content)
-            filterSelectors.push("content-tag-"+urlParams.content[0]);
+            for(var i=0; i<urlParams.content.length;i++)
+                filterSelectors.push("content-tag-"+urlParams.content[i]);
 
         return filterSelectors
     },
