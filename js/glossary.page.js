@@ -8,17 +8,21 @@ magento.glossary.page = {
     insertTerms: function(terms){
         if(typeof terms == "undefined")
             terms = magento.glossary.terms;
-        
-        for(var i=0; i<terms.length; i++){
-            if(!terms[i].types.includes("glossary"))
-                continue;
 
-            var group = terms[i].title.toUpperCase().charAt(0);
+        for(var i=0; i<terms.length; i++){
+           // if(!terms[i].types.includes("glossary"))
+           //     continue;
+
+            //var group = terms[i].title.toUpperCase().charAt(0);
+
+            var group = "Num";
+
+            var group = /[a-zA-Z]/.test(terms[i].title[0])?terms[i].title[0].toUpperCase():/[0-9]/.test(terms[i].title[0])?"Num":terms[i].title.match(/[a-zA-Z]/i)[0].toUpperCase();
 
             var termTemplate = $('#termTemplate').html();
             var termGroupTemplate = $('#termGroupTemplate').html();
             var termTitleTemplate = $('#termTitleTemplate').html();
-           
+
             if($("#"+group+"-container").length==0)
             {
                 $(Mustache.render(termGroupTemplate,{

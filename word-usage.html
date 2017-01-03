@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Magento Glossary</title>
+    <title>Word Usage</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -29,7 +29,7 @@
                     <a class="navbar-brand" href="#">
                         <img alt="Brand" src="images/m-logo.svg">
                     </a>
-                    <span class="title">Magento Glossary</span>
+                    <span class="title">Word Usage</span>
                 </div>
                 <ul id="term-groups" class="nav navbar-nav">
                 </ul>
@@ -75,7 +75,7 @@
         <div class="row term {{#userTagsArray}}user-tag-{{.}} {{/userTagsArray}}{{#contentTagsArray}}content-tag-{{.}} {{/contentTagsArray}}{{#primarySource}}source-{{primarySource}}{{/primarySource}}" >
             <span class="anchor" id="{{id}}"></span>
             <div class="col-sm-9 term-data">
-                <h3>{{#forms}}{{form}} <small>({{types}})</small> {{/forms}}<button class="btn btn-link btn-s toggle-metadata" type="button">Show Metadata</button> </h3>
+                <h3><strong>{{#forms}}{{form}} <small>({{types}})</small> {{/forms}}{{^forms}}{{title}}{{/forms}} <button class="btn btn-link btn-s toggle-metadata" type="button">Show Metadata</button> </h3>
                 <div class="hidden metadata">
                     <table class="table table-condensed table-striped table-bordered">
                         <tr>
@@ -100,12 +100,7 @@
                         </tr>
                     </table>
                 </div>
-                <p class="definition short-definition">{{{shortDefinition}}}</p>
-                {{#longDefinition}}
-                <p class="definition long-definition hidden">{{{longDefinition}}}</p>
-                <span class="show-definition" type="button">More</span> 
-                <br/>
-                {{/longDefinition}}
+                <p class="usage">{{usage}}</p>
                 {{#showReferenceLinks}}
                 <strong>Reference Links: </strong>{{#referenceLinks}}<span class="reference-link"><a href="{{location}}">{{text}}</a></span>{{/referenceLinks}}
                 {{/showReferenceLinks}}
@@ -122,7 +117,7 @@
     <script src="js/glossary.min.js"></script>
     <script>
         $(document).ready(function(){
-            magento.glossary.init("data/content-glossary.xml",function(term){return term.types.includes("glossary");},magento.glossary.page.insertTerms); 
+            magento.glossary.init("data/content-glossary.xml",function(term){return term.types.includes("usage");},magento.glossary.page.insertTerms); 
             magento.glossary.page.init(); 
         }); 
 

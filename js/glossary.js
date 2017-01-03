@@ -5,22 +5,23 @@ if (typeof magento == "undefined") {
 magento.glossary = {
     
     terms: [],
-    init: function(dataUrl, callback){
+    init: function(dataUrl, filter, callback){
         $.get(dataUrl, function(data){
             glossary = magento.glossary;
                      
                     glossaryData = $($.parseXML(data));
-                    glossaryData.find("term").each(glossary.processTerm);
+                    glossaryData.find("term").each(function(){ return glossary.processTerm(filter,$(this));});
 
                     callback();
               }, "text");
         }, 
-    processTerm: function() {
-            var term = $(this);
-
+    processTerm: function(filter,term) {
             var glossary = magento.glossary;
 
-            glossary.terms.push(glossary.unserializeTerm(term));
+            var unserializedTerm = glossary.unserializeTerm(term);
+
+            if(filter(unserializedTerm))
+                glossary.terms.push(unserializedTerm);
         },
 
     unserializeTerm: function(termXmlData) {
