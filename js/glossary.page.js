@@ -46,6 +46,7 @@ magento.glossary.page = {
             }while(iter);
 
             terms[i].forms = forms;
+            terms[i].baseurl = magento.glossary.url;
 
             $(Mustache.render(termTemplate,terms[i])).insertBefore("#"+group+"-container .back-to-top");
         }

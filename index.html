@@ -75,7 +75,7 @@
         <div class="row term {{#userTagsArray}}user-tag-{{.}} {{/userTagsArray}}{{#contentTagsArray}}content-tag-{{.}} {{/contentTagsArray}}{{#primarySource}}source-{{primarySource}}{{/primarySource}}" >
             <span class="anchor" id="{{id}}"></span>
             <div class="col-sm-9 term-data">
-                <h3>{{#forms}}{{form}} <small>({{types}})</small> {{/forms}}<button class="btn btn-link btn-s toggle-metadata" type="button">Show Metadata</button> </h3>
+                <h3>{{#forms}}{{form}} <small>({{types}})</small> {{/forms}}{{^forms}}{{title}}{{/forms}} <button class="btn btn-link btn-s toggle-metadata" type="button">Show Metadata</button> </h3>
                 <div class="hidden metadata">
                     <table class="table table-condensed table-striped table-bordered">
                         <tr>
