@@ -21,7 +21,6 @@ magento.glossary.page = {
 
             var termTemplate = $('#termTemplate').html();
             var termGroupTemplate = $('#termGroupTemplate').html();
-            var termTitleTemplate = $('#termTitleTemplate').html();
 
             if($("#"+group+"-container").length==0)
             {

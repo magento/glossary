@@ -81,7 +81,6 @@ magento.glossary.page.filter = {
     },
 
     appendTagFilter: function(label, inputType, prefix, name, options,target){
-        var template = $('#tagFilterTemplate').html();
         var renderer = magento.glossary.page.renderer;
 
         renderer.render("./js/templates/tagFilterTemplate.mst",{
