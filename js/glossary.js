@@ -3,7 +3,8 @@ if (typeof magento == "undefined") {
 };
 
 magento.glossary = {
-    
+
+    url: "http://localhost:3000",
     terms: [],
     init: function(dataUrl, filter, callback){
         $.get(dataUrl, function(data){

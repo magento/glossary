@@ -35,7 +35,7 @@
     <script src="https://cdn.jsdelivr.net/jquery.webui-popover/1.2.1/jquery.webui-popover.min.js"></script>
     <script>
         $(document).ready(function(){
-            magento.glossary.init("data/content-glossary.xml",magento.glossary.tooltip.init); 
+            magento.glossary.init("data/content-glossary.xml",function(term){return term.types.includes("glossary");},magento.glossary.tooltip.init); 
         });
     </script>
   </body>
