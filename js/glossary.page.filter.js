@@ -113,16 +113,39 @@ magento.glossary.page.filter = {
 
             for(var i=0; i<paramStrings.length; i++)
             {
-                var paramKeyValue = paramStrings[i].split('=');
+                if(paramStrings[i]){
+                    var paramKeyValue = paramStrings[i].split('=');
 
-               if(params[paramKeyValue[0]])
-                  params[paramKeyValue[0]].push(paramKeyValue[1].toLowerCase()); 
-               else
-                  params[paramKeyValue[0]] = [paramKeyValue[1].toLowerCase()];
+                    if(params[paramKeyValue[0]])
+                        params[paramKeyValue[0]].push(paramKeyValue[1].toLowerCase()); 
+                    else
+                        params[paramKeyValue[0]] = [paramKeyValue[1].toLowerCase()];
+                }
             }
         }
 
         return params; 
+    },
+
+    createFilterParamsUrl: function(){
+        var checkedFilters = $(".filter input:checked");
+
+        var paramsUrl = [];
+
+        for(var i=0;i<checkedFilters.length;i++)
+        {
+            var value = checkedFilters[i].value;
+
+            if(value.startsWith("user-tag-"))
+                paramsUrl.push("audience="+value.split("-").slice(2).join("-"));
+            if(value.startsWith("content-tag-"))
+                paramsUrl.push("content="+value.split("-").slice(2).join("-"));
+            if(value.startsWith("source-"))
+                paramsUrl.push("source="+value.split("-").slice(1).join("-")); 
+        }
+
+        return paramsUrl.join("&");
+
     },
 
     applyFilters: function(classList){
@@ -147,7 +170,12 @@ magento.glossary.page.filter = {
             filterClassList.push($(this).val());
         });
 
-        magento.glossary.page.filter.applyFilters(filterClassList);
+        console.log(filterClassList);
+
+        window.location.hash='';
+        window.location.search=magento.glossary.page.filter.createFilterParamsUrl();
+
+        //magento.glossary.page.filter.applyFilters(filterClassList);
     },
     applyUrlFilter: function() {
         var filter = magento.glossary.page.filter;
