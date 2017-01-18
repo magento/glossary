@@ -5,7 +5,7 @@ magento.glossary.page = {
         magento.glossary.page.insertGroupLinks(); 
     },
 
-    insertTerms: function(terms){
+    insertTerms: function(terms,callback){
         if(typeof terms == "undefined")
             terms = magento.glossary.terms;
 
@@ -68,6 +68,9 @@ magento.glossary.page = {
         }
 
         $(".term-data .show-definition").click(definitionToggle);
+
+        if(callback)
+            callback();
     },
 
     toggleDisplay: function(toggleSwitch, textShow, textHide, selector){

@@ -14,6 +14,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.webui-popover/1.2.1/jquery.webui-popover.min.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -61,6 +62,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/mustache.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.webui-popover/1.2.1/jquery.webui-popover.min.js"></script>
     <script id="termGroupTemplate" type="x-tmpl-mustache">
         <div class="term-group" id="{{group}}-container">
             <span class="anchor" id="{{group}}"></span>
@@ -75,7 +77,7 @@
         <div class="row term {{#userTagsArray}}user-tag-{{.}} {{/userTagsArray}}{{#contentTagsArray}}content-tag-{{.}} {{/contentTagsArray}}{{#primarySource}}source-{{primarySource}}{{/primarySource}}" >
             <span class="anchor" id="{{id}}"></span>
             <div class="col-sm-9 term-data">
-                <h3>{{#forms}}{{form}} <small>({{types}})</small> {{/forms}}{{^forms}}{{title}}{{/forms}} <button class="btn btn-link btn-s toggle-metadata" type="button">Show Metadata</button>{{#shortDefinition}}|<a class="btn btn-link btn-s" type="link" href="{{baseurl}}?#{{id}}">Definition</a>{{/shortDefinition}}</h3>
+                <h3>{{#forms}}{{#shortDefinition}}<span term-uuid="{{id}}" class="glossary-term" data-toggle="popover">{{/shortDefinition}}{{form}}{{#shortDefinition}}</span>{{/shortDefinition}} <small>({{types}})</small> {{/forms}}{{^forms}}{{#shortDefinition}}<span term-uuid="{{id}}" class="glossary-term" data-toggle="popover">{{/shortDefinition}}{{title}}{{#shortDefinition}}</span>{{/shortDefinition}}{{/forms}} <button class="btn btn-link btn-s toggle-metadata" type="button">Show Metadata</button></h3>
                 <div class="hidden metadata">
                     <table class="table table-condensed table-striped table-bordered">
                         <tr>
@@ -117,7 +119,7 @@
     <script src="js/glossary.min.js"></script>
     <script>
         $(document).ready(function(){
-            magento.glossary.init("data/content-glossary.xml",function(term){return term.types.includes("usage");},magento.glossary.page.insertTerms); 
+            magento.glossary.init("data/content-glossary.xml",function(term){return term.types.includes("usage");},function(terms){magento.glossary.page.insertTerms(terms,magento.glossary.tooltip.init);}); 
             magento.glossary.page.init(); 
         }); 
 

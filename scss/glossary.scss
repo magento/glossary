@@ -38,3 +38,9 @@ nav .title{
     position:absolute;
     z-index: 10;
 }
+
+.glossary-term {
+    color: #337ab7;
+    border-bottom: dashed 1px #337ab7;
+    cursor: help;
+}
