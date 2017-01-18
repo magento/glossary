@@ -3,33 +3,25 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Tooltip Example</title>
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.webui-popover/1.2.1/jquery.webui-popover.min.css">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <style>
+        .glossary-term {
+            color: #00e;
+            border-bottom: dashed 1px #00e;
+            cursor: help;
+        }
+    </style>
   </head>
   <body>
         <h2>Tooltip Example</h2>
-        <p>A augue at et a vel morbi nec urna ac olutpat scelerisque a sem dictumst fusce rutrum aenean <span term-uuid="8d40d668-4996-4856-9f81-b1386cf4b14f" class="term" data-toggle="popover">elementum</span> dignissim ultrices gravida phasellus malesuada ac iaculis cursus ipsum turpis. Turpis parturient parturient diam feugiat fermentum condimentum nulla in id consectetur neque nisl est turpis vestibulum ligula conubia quisque cras in mauris nisl hendrerit sociosqu.</p>
-        <p>Adipiscing nunc nostra orci risus ut diam auctor purus ut a dignissim commodo eros ad class parturient parturient morbi class vehicula augue phasellus scelerisque vivamus condimentum sit suspendisse enim. Ultricies vestibulum hendrerit per parturient parturient id lectus ut nam risus imperdiet metus condimentum himenaeos a lobortis eu odio a aenean facilisis a gravida. Vestibulum est diam phasellus taciti parturient fringilla est himenaeos nulla a diam suspendisse sociis augue in elit tempor scelerisque cras scelerisque dui.</p>
+        <p>The following is an example of a tooltip: <span term-uuid="8d40d668-4996-4856-9f81-b1386cf4b14f" class="glossary-term" data-toggle="popover">catalog</span></p>
 
-        <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">Tooltip on bottom</button>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     
-    <script src="js/bootstrap.min.js"></script>
     <script src="js/glossary.tooltip.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/jquery.webui-popover/1.2.1/jquery.webui-popover.min.js"></script>
