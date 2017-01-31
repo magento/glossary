@@ -100,12 +100,14 @@
                         </tr>
                     </table>
                 </div>
-                <p class="definition short-definition">{{{shortDefinition}}}</p>
-                {{#longDefinition}}
-                <p class="definition long-definition hidden">{{{longDefinition}}}</p>
-                <span class="show-definition" type="button">More</span> 
-                <br/>
-                {{/longDefinition}}
+                <p class="definition">
+                    <span class="short-definition">{{{shortDefinition}}} </span>
+                    {{#longDefinition}}
+                    <span class="long-definition hidden">{{{longDefinition}}}</span>
+                    <span class="show-definition" type="button">More...</span> 
+                    <br/>
+                    {{/longDefinition}}
+                </p>
                 {{#showReferenceLinks}}
                 <strong>Reference Links: </strong>{{#referenceLinks}}<span class="reference-link"><a href="{{location}}">{{text}}</a></span>{{/referenceLinks}}
                 {{/showReferenceLinks}}

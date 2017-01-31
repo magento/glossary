@@ -64,7 +64,7 @@ magento.glossary.page = {
         $(".term-data .toggle-metadata").click(metadataToggle);
 
         function definitionToggle(eventObject){
-            magento.glossary.page.toggleDisplay(eventObject.target,"More","Less",".long-definition");
+            magento.glossary.page.toggleDisplay(eventObject.target,"More...","...Less",".long-definition");
         }
 
         $(".term-data .show-definition").click(definitionToggle);
