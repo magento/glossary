@@ -5,7 +5,7 @@ $semi_bold: 600;
 @import "partials/filter";
 
 body {
-    padding-top: 60px;
+    padding-top: 80px;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
@@ -19,25 +19,46 @@ body {
     width:1px;
 }
 
-nav.static{
-    margin-top: 63px;
+nav {
+
+    .navbar-header, #term-groups{
+        height: 40px;
+    }
+    
+    .navbar-brand{
+        padding: 5px 9px;
+    }
+
+    .title{
+        font-size: 20px;
+        line-height: 50px;
+        font-weight: 400;
+    }
+
+    .feedback-link{
+        z-index: 10;
+    }
+
+    .action-links{
+        padding-left: 50px;
+        font-size: 11px;
+        padding-bottom: 5px;
+
+        .btn{
+            font-size: 11px;
+        }
+    }
+
+    #top {
+        font-size: 11px;
+    }
+
+    .navbar-nav>li>a{
+        padding: 15px 10px;
+    }
+
 }
 
-nav .navbar-brand{
-    padding: 5px 9px;
-}
-
-nav .title{
-    font-size: 20px;
-    line-height: 50px;
-    font-weight: 400;
-}
-
-.feedback-link{
-    margin-top: 15px;
-    position:absolute;
-    z-index: 10;
-}
 
 .glossary-term {
     color: #337ab7;

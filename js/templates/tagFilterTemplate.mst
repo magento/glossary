@@ -1,4 +1,4 @@
-<button type="button" class="btn btn-default dropdown-toggle filter" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<button type="button" class="btn btn-default btn-xs dropdown-toggle filter" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     {{label}} <span class="caret"></span>
 </button>
 <ul class="dropdown-menu dropdown-menu-left">

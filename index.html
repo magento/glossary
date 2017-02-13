@@ -25,31 +25,41 @@
     <div class="container">
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#">
-                        <img alt="Brand" src="images/m-logo.svg">
-                    </a>
-                    <span class="title">Magento Glossary</span>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="#">
+                                <img alt="Brand" src="images/m-logo.svg">
+                            </a>
+                            <span class="title">Magento Glossary</span>
+                        </div>
+                        <ul id="term-groups" class="nav navbar-nav">
+                        </ul>
+                    </div>
                 </div>
-                <ul id="term-groups" class="nav navbar-nav">
-                </ul>
-                <a class="feedback-link btn btn-default btn-xs" href="https://github.com/jcalcaben/magento-glossary/issues/new">Give us feedback</a>
+                <div class="row">
+                    <div class="action-links col-md-12">
+                        Have a suggestions?
+                        <a class="feedback-link btn btn-link btn-xs" href="https://github.com/jcalcaben/magento-glossary/issues/new">Send us feedback</a> 
+                         | 
+                         <a class="content-author-link btn btn-link btn-xs">Show content author links</a>
+                         <span class="word-usage">
+                            |
+                            <a class="word-usage-link btn btn-link btn-xs">Word Usage Terms</a> 
+                         </span>
+                    </div>
+                </div>
             </div>
         </nav>
         <div class="filters row">
-            <div class="col-md-2">
+            <div class="col-md-12">
+                <span class="filter-by">Filter by:</span>
                 <div class="btn-group" id="user-tags">
                 </div>
-            </div>
-            <div class="col-md-2">
                 <div class="btn-group" id="content-tags">
                 </div>
-            </div>
-            <div class="col-md-3">
                 <div class="btn-group" id="primary-source">
                 </div>
-            </div>
-            <div class="col-md-2">
             </div>
         </div>
         <div class="row">
@@ -66,7 +76,6 @@
             <span class="anchor" id="{{group}}"></span>
             <h2>{{group}}</h2>
             <div class="back-to-top clearfix">
-                <a class="pull-right" href="#">Back to Top</a>
             </div>
             <hr/>
         </div>
