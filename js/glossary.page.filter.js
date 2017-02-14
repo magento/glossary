@@ -164,18 +164,19 @@ magento.glossary.page.filter = {
         $(".term"+filter).removeClass("hidden").addClass("show");
     },
     
-    updateFilter: function(){
+    updateFilter: function(eventObject){
         filterClassList = [];
         $(".filter input:checked").each(function(){
             filterClassList.push($(this).val());
         });
 
-        console.log(filterClassList);
-
-        window.location.hash='';
-        window.location.search=magento.glossary.page.filter.createFilterParamsUrl();
-
-        //magento.glossary.page.filter.applyFilters(filterClassList);
+        if(eventObject.target.id.startsWith("user-tag")){
+            window.location.hash='';
+            window.location.search=magento.glossary.page.filter.createFilterParamsUrl();
+        }else
+        { 
+            magento.glossary.page.filter.applyFilters(filterClassList);
+        }
     },
     applyUrlFilter: function() {
         var filter = magento.glossary.page.filter;
