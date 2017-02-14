@@ -9,7 +9,7 @@
     "node-sass": "^3.13.0"
   },
   "scripts": {
-    "copy": "echo '=> copying files' && ./node_modules/.bin/copyfiles index.html word-usage.html tooltip.html js/*.min.js js/templates/* css/* fonts/* images/* _site/ && ./node_modules/.bin/copyfiles -f _data/content-glossary.xml _site/data/",
+    "copy": "echo '=> copying files' && ./node_modules/.bin/copyfiles favicon.ico index.html word-usage.html tooltip.html js/*.min.js js/templates/* css/* fonts/* images/* _site/ && ./node_modules/.bin/copyfiles -f _data/content-glossary.xml _site/data/",
     "minify": "echo '=>minifying files' && ./node_modules/.bin/uglifyjs -c -o js/glossary.min.js js/glossary.js js/glossary.page.js js/glossary.page.filter.js js/glossary.page.renderer.js js/glossary.tooltip.js && ./node_modules/.bin/uglifyjs -c -o js/glossary.tooltip.min.js js/glossary.js js/glossary.tooltip.js",
     "convert": "echo '=>converting excel file to xml' && python scripts/convert-excel-to-xml.py -i scripts/content-glossary.xlsx -o _data/content-glossary.xml",
     "watch": "./node_modules/.bin/browser-sync start --server '_site' --files '_site'",
