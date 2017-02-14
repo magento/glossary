@@ -58,23 +58,33 @@ magento.glossary.page = {
             magento.glossary.page.filter.applyUrlFilter();
 
         function metadataToggle(eventObject){
-            magento.glossary.page.toggleDisplay(eventObject.target,"Show Metadata","Hide Metadata", ".metadata");
+            var target = $(".metadata",$(eventObject.target).parentsUntil(".term",".term-data"));
+            magento.glossary.page.toggleDisplay(eventObject.target,"Show Metadata","Hide Metadata", target);
         } 
         
         $(".term-data .toggle-metadata").click(metadataToggle);
 
         function definitionToggle(eventObject){
-            magento.glossary.page.toggleDisplay(eventObject.target,"More...","...Less",".long-definition");
+            var target = $(".long-definition",$(eventObject.target).parentsUntil(".term",".term-data"));
+            magento.glossary.page.toggleDisplay(eventObject.target,"More...","...Less",target);
         }
 
         $(".term-data .show-definition").click(definitionToggle);
+
+        function contentAuthorLinksToggle(eventObject){
+            var target = $(".word-usage");
+            magento.glossary.page.toggleDisplay(eventObject.target,"Show content author links", "Hide content author links", target);
+            target = $(".toggle-metadata");
+            magento.glossary.page.toggleDisplay(eventObject.target,"Show content author links", "Hide content author links", target);
+        }
+
+        $(".content-author-link").click(contentAuthorLinksToggle);
 
         if(callback)
             callback();
     },
 
-    toggleDisplay: function(toggleSwitch, textShow, textHide, selector){
-        var target = $(selector,$(toggleSwitch).parentsUntil(".term",".term-data"));
+    toggleDisplay: function(toggleSwitch, textShow, textHide, target){
         if(target.hasClass("hidden")){
             target.addClass("show").removeClass("hidden");
             $(toggleSwitch).text(textHide);
