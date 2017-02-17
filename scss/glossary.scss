@@ -24,6 +24,10 @@ nav {
     .navbar-header, #term-groups{
         height: 40px;
     }
+
+    #term-groups{
+        margin-left: 25px;
+    }
     
     .navbar-brand{
         padding: 5px 9px;
@@ -65,7 +69,6 @@ nav {
 
 
 .glossary-term {
-    color: #337ab7;
-    border-bottom: dashed 1px #337ab7;
+    border-bottom: dashed 1px;
     cursor: help;
 }

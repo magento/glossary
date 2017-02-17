@@ -7,7 +7,8 @@ magento.glossary.tooltip = {
             if(term){
 
             var title = term.title;
-            var content = term.shortDefinition;
+            var glossaryLink = "<p><a href=\""+magento.glossary.url+"?#"+term.id+"\">More Details</a></p>";
+            var content = term.shortDefinition+glossaryLink;
 
             $(this).webuiPopover({
                 title: title,

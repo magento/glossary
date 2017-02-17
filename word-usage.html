@@ -14,6 +14,11 @@
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.webui-popover/1.2.1/jquery.webui-popover.min.css">
+
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="icon" sizes="16x16 32x32" href="/favicon.ico">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -25,31 +30,37 @@
     <div class="container">
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#">
-                        <img alt="Brand" src="images/m-logo.svg">
-                    </a>
-                    <span class="title">Word Usage</span>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="#">
+                                <img alt="Brand" src="images/m-logo.svg">
+                            </a>
+                            <span class="title">Magento Word Usage</span>
+                        </div>
+                        <ul id="term-groups" class="nav navbar-nav">
+                        </ul>
+                    </div>
                 </div>
-                <ul id="term-groups" class="nav navbar-nav">
-                </ul>
-                <a class="feedback-link btn btn-default btn-xs" href="https://github.com/jcalcaben/magento-glossary/issues/new">Give us feedback</a>
+                <div class="row">
+                    <div class="action-links col-md-12">
+                        Have a suggestions?
+                        <a class="feedback-link btn btn-link btn-xs" href="https://github.com/jcalcaben/magento-glossary/issues/new">Send us feedback</a> 
+                         | 
+                        <a class="word-usage-link btn btn-link btn-xs" href="index.html">Glossary Terms</a> 
+                    </div>
+                </div>
             </div>
         </nav>
         <div class="filters row">
-            <div class="col-md-2">
+            <div class="col-md-12">
+                <span class="filter-by">Filter by:</span>
                 <div class="btn-group" id="user-tags">
                 </div>
-            </div>
-            <div class="col-md-2">
                 <div class="btn-group" id="content-tags">
                 </div>
-            </div>
-            <div class="col-md-3">
                 <div class="btn-group" id="primary-source">
                 </div>
-            </div>
-            <div class="col-md-2">
             </div>
         </div>
         <div class="row">
@@ -67,7 +78,6 @@
             <span class="anchor" id="{{group}}"></span>
             <h2>{{group}}</h2>
             <div class="back-to-top clearfix">
-                <a class="pull-right" href="#">Back to Top</a>
             </div>
             <hr/>
         </div>
@@ -76,7 +86,7 @@
         <div class="row term {{#userTagsArray}}user-tag-{{.}} {{/userTagsArray}}{{#contentTagsArray}}content-tag-{{.}} {{/contentTagsArray}}{{#primarySource}}source-{{primarySource}}{{/primarySource}}" >
             <span class="anchor" id="{{id}}"></span>
             <div class="col-sm-9 term-data">
-                <h3>{{#forms}}{{form}} <small>({{types}})</small> {{/forms}}{{^forms}}{{title}}{{/forms}} <button class="btn btn-link btn-s toggle-metadata" type="button">Show Metadata</button> {{#shortDefinition}}| <a class="btn btn-link btn-s" href="{{baseurl}}?#{{id}}">Definition</a> {{/shortDefinition}}</h3>
+                <h3>{{#forms}}{{form}} <small>({{types}})</small> {{/forms}}{{^forms}}{{title}}{{/forms}} <button class="btn btn-link btn-xs toggle-metadata" type="button">Show Metadata</button></h3>
                 <div class="hidden metadata">
                     <table class="table table-condensed table-striped table-bordered">
                         <tr>
@@ -102,8 +112,11 @@
                     </table>
                 </div>
                 <p class="usage">{{usage}}</p>
+                {{#shortDefinition}}
+                <p>See <span class="glossary-term" term-uuid="{{id}}" data-toggle="popover">definition</a></span></p>
+                {{/shortDefinition}}
                 {{#showReferenceLinks}}
-                <strong>Reference Links: </strong>{{#referenceLinks}}<span class="reference-link"><a href="{{location}}">{{text}}</a></span>{{/referenceLinks}}
+                <p><strong>See also: </strong>{{#referenceLinks}}<span class="reference-link"><a href="{{location}}">{{text}}</a></span>{{/referenceLinks}}</p>
                 {{/showReferenceLinks}}
             </div>
         </div>
@@ -118,7 +131,7 @@
     <script src="js/glossary.min.js"></script>
     <script>
         $(document).ready(function(){
-            magento.glossary.init("data/content-glossary.xml",function(term){return term.types.includes("usage");},magento.glossary.page.insertTerms); 
+            magento.glossary.init("data/content-glossary.xml",function(term){return term.types.includes("usage");},function(terms){magento.glossary.page.insertTerms(terms,magento.glossary.tooltip.init);}); 
             magento.glossary.page.init(); 
         }); 
 
