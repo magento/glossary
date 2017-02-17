@@ -2,7 +2,6 @@ magento.glossary.page = {
 
     init: function(){
         magento.glossary.page.filter.init();
-        magento.glossary.page.insertGroupLinks(); 
     },
 
     insertTerms: function(terms,callback){
@@ -49,6 +48,9 @@ magento.glossary.page = {
 
             $(Mustache.render(termTemplate,terms[i])).insertBefore("#"+group+"-container .back-to-top");
         }
+        
+        magento.glossary.page.insertGroupLinks(); 
+
 
         if(window.location.hash){
             window.location.search = '';
@@ -140,14 +142,24 @@ magento.glossary.page = {
                     id: "v-z"
                 },
                 {
+                    targetAnchor: "Num",
+                    buttonText: "Num.",
+                    id: "num"
+                },
+                {
                     targetAnchor: "",
                     buttonText: "Back to Top",
                     id: "top"
                 },
             ]
         },
-        function(html){ $("#term-groups").append(html); });
-
+        function(html){ 
+            $("#term-groups").append(html); 
+        
+            //Hide Num if there are no num entries
+            if($("#Num-container").length<1)
+                $("#num").hide();
+            }); 
     },
 
 }
