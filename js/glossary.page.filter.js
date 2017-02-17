@@ -92,14 +92,28 @@ magento.glossary.page.filter = {
         },function(html){
             var filter = magento.glossary.page.filter;
             target.append(html);
-            $(".filter input").click(filter.updateFilter);
+
+            $(" .filter input",target).click(filter.updateFilter);
 
             if(window.location.hash==""){
                 var filterSelectors = filter.getFilterSelectors(filter.getUrlParams());
+                console.log(filterSelectors);
                 for(var i=0; i<filterSelectors.length; i++){
-                    $("input#"+filterSelectors[i]).prop("checked",true);
+                    if(filterSelectors[i].startsWith(prefix)){
+                        $(" input#"+filterSelectors[i],target).prop("checked",true); 
+                        filter.appendTagLabel(filterSelectors[i].replace(prefix+"-",""));
+                    }
                 }
             }
+        });
+    },
+
+    appendTagLabel: function(name){
+        var renderer = magento.glossary.page.renderer;
+        renderer.render("./js/templates/filterLabel.mst",{
+            name: name,
+        },function(html){
+            $(".filters-list").append(html);
         });
     },
 
@@ -154,7 +168,6 @@ magento.glossary.page.filter = {
 
         $(".term").removeClass("show").addClass("hidden");
 
-
         var filter = classList.map(function(element){
             if(element)
                 return "."+element;
@@ -176,8 +189,22 @@ magento.glossary.page.filter = {
         }else
         { 
             magento.glossary.page.filter.applyFilters(filterClassList);
+
+            $(".filters-list").empty();
+
+            for(var i=0; i<filterClassList.length; i++) {
+                magento.glossary.page.filter.appendTagLabel(filterClassList[i]
+                                                                .replace("user-tag-","")
+                                                                .replace("content-tag-","")
+                                                                .replace("source-",""));
+            }
         }
     },
+
+    updateFilterList: function(){
+
+    },
+
     applyUrlFilter: function() {
         var filter = magento.glossary.page.filter;
 
