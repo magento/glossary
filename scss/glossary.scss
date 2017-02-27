@@ -4,6 +4,8 @@ $semi_bold: 600;
 @import "partials/term";
 @import "partials/filter";
 
+$break-medium: 768px;
+
 body {
     padding-top: 80px;
     font-family: 'Open Sans', sans-serif;
@@ -22,8 +24,20 @@ body {
 nav {
 
     .navbar-header, #term-groups{
-        height: 40px;
+        height: 40px; 
     }
+
+    .menu-toggle {
+        float: right;
+        div{
+            width: 35px;
+            height: 5px;
+            background-color: #777;
+            margin: 6px 0;
+        }
+    }
+
+
 
     #term-groups{
         margin-left: 25px;
@@ -66,10 +80,33 @@ nav {
         display: inline!important;
     }
 
+    
 }
 
 
 .glossary-term {
     border-bottom: dashed 1px;
     cursor: help;
+}
+
+
+
+@media screen and (max-width: $break-medium){
+    body {
+        padding-top: 100px;
+
+    }
+
+    .anchor {
+        height: 75px; /*same height as header*/
+        margin-top: -75px; /*same height as header*/
+    }
+
+    nav {
+
+        .navbar-header, #term-groups{
+            height: initial;
+        }
+    }
+
 }
