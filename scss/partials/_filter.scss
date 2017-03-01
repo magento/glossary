@@ -1,4 +1,7 @@
 .filters {
+    
+    margin-left: 5px;
+
     .filter {
         z-index: 10;
     }
@@ -7,7 +10,7 @@
     }
 
     .btn-group {
-        margin-left: 20px;
+        margin-left: 10px;
     }
 
     ul {
@@ -18,4 +21,35 @@
 
 .filters-list {
     margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+@media screen and (max-width: $break-medium){
+    .filters {
+
+        #user-tags {
+            margin-left: 15px;
+        }
+
+        .filter-by {
+
+        }
+
+    }
+
+    .filters-list {
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width: $break-extra-small){
+    .filters {
+        #user-tags,#content-tags,#primary-source {
+            margin-left: 10px;
+            display: inline-block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
 }

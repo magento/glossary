@@ -2,17 +2,6 @@ magento.glossary.page = {
 
     init: function(){
         magento.glossary.page.filter.init();
-
-        if(document.documentElement.clientWidth < 768) {
-            $(".navbar-nav").addClass("hidden");
-        }
-
-        function menuToggle(eventObject) {
-            var target = $(".navbar-nav");
-            magento.glossary.page.toggleDisplay(eventObject.target,"","", target); 
-        }
-
-        $(".menu-toggle").click(menuToggle);
     },
 
     insertTerms: function(terms,callback){
@@ -117,7 +106,7 @@ magento.glossary.page = {
                 {
                     targetAnchor: "A",
                     buttonText: "A-C",
-                    id: "a-c"
+                    id: "a-c",
                 },
                 {
                     targetAnchor: "D",
@@ -167,13 +156,13 @@ magento.glossary.page = {
             ]
         },
         function(html){ 
-            $("#term-groups").append(html); 
+            $(".term-groups").append(html); 
         
             //Hide Num if there are no num entries
             if($("#Num-container").length<1)
-                $("#num").hide();
+                $(".anchor-link-num").hide();
 
-            $("#term-groups a").click(function(){
+            $(".term-groups a").click(function(){
                 if(document.documentElement.clientWidth < 768) {
                     $(".navbar-nav").addClass("hidden");
                 }

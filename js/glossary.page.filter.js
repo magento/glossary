@@ -48,7 +48,7 @@ magento.glossary.page.filter = {
             }
         ],$("#content-tags"));
 
-        filter.appendTagFilter("Primary Source","radio","source","primary-source",[
+        filter.appendTagFilter("Source","radio","source","primary-source",[
             {
                 id: null,
                 text: "All"
@@ -97,7 +97,6 @@ magento.glossary.page.filter = {
 
             if(window.location.hash==""){
                 var filterSelectors = filter.getFilterSelectors(filter.getUrlParams());
-                console.log(filterSelectors);
                 for(var i=0; i<filterSelectors.length; i++){
                     if(filterSelectors[i].startsWith(prefix)){
                         $(" input#"+filterSelectors[i],target).prop("checked",true); 

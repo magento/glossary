@@ -1,28 +1,29 @@
 $semi_bold: 600;
 
+$break-extra-small: 374px;
+$break-medium: 767px;
+$break-large: 991px;
+
 @import "partials/term-group";
 @import "partials/term";
 @import "partials/filter";
 
-$break-medium: 768px;
-
 body {
-    padding-top: 80px;
+    padding-top: 85px;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
 
 .anchor {
     display: block;
-    height: 50px; /*same height as header*/
-    margin-top: -50px; /*same height as header*/
+    height: 60px; /*same height as header*/
+    margin-top: -60px; /*same height as header*/
     visibility: hidden;
     z-index: 0;
     width:1px;
 }
 
 nav {
-
     .navbar-header, #term-groups{
         height: 40px; 
     }
@@ -67,7 +68,7 @@ nav {
         }
     }
 
-    #top {
+    .anchor-link-top {
         font-size: 11px;
         margin-left: 22px;
     }
@@ -80,7 +81,14 @@ nav {
         display: inline!important;
     }
 
-    
+    .responsive-anchor-links {
+        margin-bottom: 10px;
+
+        .jump-to {
+            margin-left: 50px;
+            margin-right: 5px;
+        }
+    }    
 }
 
 
@@ -90,16 +98,22 @@ nav {
 }
 
 
+#glossary-terms {
+    margin-left: 20px;
+}
+
+@media screen and (max-width: $break-large){
+}
 
 @media screen and (max-width: $break-medium){
     body {
-        padding-top: 100px;
+        padding-top: 130px;
 
     }
 
     .anchor {
-        height: 75px; /*same height as header*/
-        margin-top: -75px; /*same height as header*/
+        height: 120px; /*same height as header*/
+        margin-top: -120px; /*same height as header*/
     }
 
     nav {
@@ -107,6 +121,24 @@ nav {
         .navbar-header, #term-groups{
             height: initial;
         }
+
+        .action-links {
+            padding-left: 60px;
+        }
     }
 
+    #glossary-terms {
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width: $break-extra-small){
+    body {
+        padding-top: 145px;
+    }
+
+    .anchor {
+        height: 135px;
+        margin-top: -135px;
+    }
 }
