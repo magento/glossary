@@ -130,14 +130,18 @@
                         </tr>
                     </table>
                 </div>
-                <p class="definition">
+                <div class="definition">
+                    <p>
                     <span class="short-definition">{{{shortDefinition}}} </span>
+                    </p>
                     {{#longDefinition}}
-                    <span class="long-definition hidden">{{{longDefinition}}}</span>
-                    <span class="show-definition" type="button">More...</span> 
+                    <p>
+                        <span class="long-definition hidden">{{{longDefinition}}}</span>
+                        <span class="show-definition" type="button">More...</span> 
+                    </p>
                     <br/>
                     {{/longDefinition}}
-                </p>
+                </div>
                 {{#showReferenceLinks}}
                 <strong>See also: </strong>{{#referenceLinks}}<span class="reference-link"><a href="{{location}}">{{text}}</a></span>{{/referenceLinks}}
                 {{/showReferenceLinks}}
