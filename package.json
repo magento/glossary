@@ -14,6 +14,7 @@
     "convert": "echo '=>converting excel file to xml' && python scripts/convert-excel-to-xml.py -i scripts/content-glossary.xlsx -o _data/content-glossary.xml",
     "watch": "./node_modules/.bin/browser-sync start --server '_site' --files '_site'",
     "scss": "echo '=> generating css from scss' && node_modules/.bin/node-sass --output-style compressed scss/glossary.scss css/glossary.min.css",
-    "deploy": "echo '=> deploying glossary files' && npm run minify && npm run scss && npm run copy"
+    "deploy": "echo '=> deploying glossary files' && npm run minify && npm run scss && npm run copy",
+    "export": "echo '=> exporting glossary files' && npm run deploy && sed -i '' 's/http:\\/\\/localhost:3000/https:\\/\\/magento.github.io\\/glossary\\//' _site/js/glossary.min.js && ./node_modules/.bin/copyfiles -u 1 _site/* _site/*/* _site/*/*/*"
   }
 }
