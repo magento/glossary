@@ -37,15 +37,26 @@
                                 <img alt="Brand" src="images/m-logo.svg">
                             </a>
                             <span class="title">Magento Word Usage</span>
-                            <button type="button" class="btn btn-default navbar-btn visible-xs-inline menu-toggle"><div></div><div></div><div></div></button>
                         </div>
-                        <ul id="term-groups" class="nav navbar-nav">
+                        <ul class="term-groups nav navbar-nav visible-sm-inline visible-md-inline visible-lg-inline">
                         </ul>
                     </div>
                 </div>
                 <div class="row">
+                    <div class="col-md-12 responsive-anchor-links hidden-sm hidden-md hidden-lg">
+                        <span class="jump-to">Jump to:</span>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select a section  <span class="caret"></span>
+                            </button>
+                            <ul class="term-groups dropdown-menu">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
                     <div class="action-links col-md-12">
-                        Have a suggestion?
+                        <span class="visible-sm-inline visible-md-inline visible-lg-inline" >Have a suggestion?</span>
                         <a class="feedback-link btn btn-link btn-xs" href="https://github.com/magento/glossary/issues/new">Send us feedback</a> 
                          | 
                         <a class="word-usage-link btn btn-link btn-xs" href="index.html">Glossary Terms</a> 
@@ -53,23 +64,25 @@
                 </div>
             </div>
         </nav>
-        <div class="filters row">
-            <div class="col-md-12">
-                <span class="filter-by">Filter by:</span>
-                <div class="btn-group" id="user-tags">
-                </div>
-                <div class="btn-group" id="content-tags">
-                </div>
-                <div class="btn-group" id="primary-source">
+        <div class="container">
+            <div class="filters row">
+                <div class="col-md-12">
+                    <span class="filter-by visible-sm-inline visible-md-inline visible-lg-inline">Filter by:</span>
+                    <div class="btn-group" id="user-tags">
+                    </div>
+                    <div class="btn-group" id="content-tags">
+                    </div>
+                    <div class="btn-group" id="primary-source">
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="filters-list col-md-12">
+            <div class="row">
+                <div class="filters-list col-md-12">
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-9" id="glossary-terms"></div>
+            <div class="row">
+                <div class="col-sm-9" id="glossary-terms"></div>
+            </div>
         </div>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
