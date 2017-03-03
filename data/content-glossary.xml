@@ -253,7 +253,7 @@
     <reference-links>
       <reference-link>
         <text>area</text>
-        <location>#area</location>
+        <location>#acd0bab7-412e-444d-9e1e-6b8896a77274</location>
       </reference-link>
       <reference-link>
         <text>Magento Admin</text>
@@ -558,6 +558,8 @@
     </content-tags>
     <user-tags>
       <user-tag>Internal</user-tag>
+      <user-tag>Developer</user-tag>
+      <user-tag>Merchant</user-tag>
     </user-tags>
     <short-definition>A logical grouping of attributes within an attribute set.</short-definition>
     <long-definition></long-definition>
@@ -590,6 +592,8 @@
     </content-tags>
     <user-tags>
       <user-tag>Internal</user-tag>
+      <user-tag>Developer</user-tag>
+      <user-tag>Merchant</user-tag>
     </user-tags>
     <short-definition>A collection of attribute groups, customized for a specific product. Example: A T-shirt attribute set might include color, size, gender, and brand.</short-definition>
     <long-definition></long-definition>
@@ -810,6 +814,8 @@
     </content-tags>
     <user-tags>
       <user-tag>Internal</user-tag>
+      <user-tag>Developer</user-tag>
+      <user-tag>Merchant</user-tag>
     </user-tags>
     <short-definition>Generally used in the same way as "server side". </short-definition>
     <long-definition></long-definition>
@@ -865,6 +871,7 @@
     <form-types>
       <form text="backup">
         <form-type>n</form-type>
+        <form-type>adj</form-type>
       </form>
       <form text="back up">
         <form-type>v</form-type>
@@ -1014,6 +1021,8 @@
     </content-tags>
     <user-tags>
       <user-tag>Internal</user-tag>
+      <user-tag>Developer</user-tag>
+      <user-tag>Merchant</user-tag>
     </user-tags>
     <short-definition>A method of filtering data that excludes the data specified on a list and includes everything else.</short-definition>
     <long-definition></long-definition>
@@ -1280,6 +1289,8 @@
     </content-tags>
     <user-tags>
       <user-tag>Internal</user-tag>
+      <user-tag>Developer</user-tag>
+      <user-tag>Merchant</user-tag>
     </user-tags>
     <short-definition>Lets customers assemble a "build your own" customizable product from a variety of options and configurations. Each item in the bundle is either a separate simple or virtual product.</short-definition>
     <long-definition></long-definition>
@@ -1952,7 +1963,6 @@ You can create as many root categories as you want, but only one (the default) c
     </types>
     <form-types>
       <form text="command-line">
-        <form-type>n</form-type>
         <form-type>adj</form-type>
       </form>
     </form-types>
@@ -1997,7 +2007,7 @@ You can create as many root categories as you want, but only one (the default) c
     </user-tags>
     <short-definition></short-definition>
     <long-definition></long-definition>
-    <usage>Not &#8220;ecommerce&#8221;.</usage>
+    <usage>Use in Magento marketing and documentation to describe an end-to-end solution not necessarily confined to the internet. The term &#8220;ecommerce&#8221; can still be used when describing online transactions.</usage>
     <reference-links/>
   </term>
   <term>
@@ -2182,6 +2192,8 @@ A &#8220;package&#8221; is the composer&#8217;s smallest unit of delivery. Examp
     </content-tags>
     <user-tags>
       <user-tag>Internal</user-tag>
+      <user-tag>Developer</user-tag>
+      <user-tag>Merchant</user-tag>
     </user-tags>
     <short-definition>A configurable product looks like a single product with drop-down lists of options for each variation. Each option is actually a separate simple product with a unique SKU, which makes it possible to track inventory for each product variation. </short-definition>
     <long-definition>To achieve a similar effect, a simple product can be used with custom options, but without the ability to track inventory for each variation. Products with multiple options are sometimes referred to as composite product.
@@ -2522,6 +2534,7 @@ The attributes of a container include visibility, horizontal and vertical alignm
     </content-tags>
     <user-tags>
       <user-tag>Internal</user-tag>
+      <user-tag>Merchant</user-tag>
     </user-tags>
     <short-definition>A product that appears next to the shopping cart. When a customer navigates to the shopping cart page, these products are displayed as cross-sells to the items already in the shopping cart. They are similar to impulse buys, like magazines and candy at the cash registers in grocery stores.</short-definition>
     <long-definition></long-definition>
@@ -2919,7 +2932,7 @@ The attributes of a container include visibility, horizontal and vertical alignm
     </user-tags>
     <short-definition></short-definition>
     <long-definition></long-definition>
-    <usage>Use &#8220;directory&#8221; for source code, logs and specifications. Use &#8220;folder&#8221; for merchant-facing content. </usage>
+    <usage>Use &#8220;directory&#8221; for source code, logs, and specifications. Use &#8220;folder&#8221; for merchant-facing content. </usage>
     <reference-links/>
   </term>
   <term>
@@ -3077,6 +3090,8 @@ The attributes of a container include visibility, horizontal and vertical alignm
     </content-tags>
     <user-tags>
       <user-tag>Internal</user-tag>
+      <user-tag>Developer</user-tag>
+      <user-tag>Merchant</user-tag>
     </user-tags>
     <short-definition>A digitally downloadable product that consists of one or more files that are downloaded, such as an eBook, music, video, software application, or an update. You can offer an album for sale and sell each song individually. A downloadable product can deliver an electronic version of your product catalog.
 
@@ -3177,6 +3192,7 @@ Downloadable files can reside on your server or be provided as URLs to any other
     <form-types>
       <form text="dropdown">
         <form-type>n</form-type>
+        <form-type>adj</form-type>
       </form>
     </form-types>
     <synonyms>
@@ -3681,7 +3697,7 @@ Code format: media url="path/to/image.jpg"</long-definition>
     </synonyms>
     <primary-source>UserDocs</primary-source>
     <content-tags>
-      <content-tag>Programming</content-tag>
+      <content-tag>programming</content-tag>
     </content-tags>
     <user-tags>
       <user-tag>Internal</user-tag>
@@ -4149,11 +4165,7 @@ Unlike libraries, frameworks feature the following:
       <user-tag>Internal</user-tag>
       <user-tag>Developer</user-tag>
     </user-tags>
-    <short-definition>In a client-server application, there is the backend and frontend. The frontend component, or client, is an interface that enables users to manipulate or interact with the underlying backend code. Backend code runs on a server. A user cannot directly access backend code. A user interacts with the storefront, which in turn uses code running on the Magento server.
-
-
-
-</short-definition>
+    <short-definition>In a client-server application, there is the backend and frontend. The frontend component, or client, is an interface that enables users to manipulate or interact with the underlying backend code. Backend code runs on a server. A user cannot directly access backend code. A user interacts with the storefront, which in turn uses code running on the Magento server.</short-definition>
     <long-definition>Note: In the past, the Magento storefront has been referred to as the "frontend", and the Magento Admin has been referred to as the "backend". This usage is no longer supported.</long-definition>
     <usage>To clarify due to past confusing usage of the term, use as an adjective only. Examples: frontend component, frontend developer.
 
@@ -4400,6 +4412,8 @@ Gift cards also help promotions, as store administrators can manually create the
     </content-tags>
     <user-tags>
       <user-tag>Internal</user-tag>
+      <user-tag>Developer</user-tag>
+      <user-tag>Merchant</user-tag>
     </user-tags>
     <short-definition>A product type with several similar, standalone products grouped on a single page.  Can be offered with variations of a single product or by grouping them by season or theme to create a coordinated set. Each product can be purchased separately, or as part of the group.
 
@@ -5712,7 +5726,11 @@ This combination enables CSS to be themed and more maintainable and extendable. 
     </user-tags>
     <short-definition>Used to refer to a module, theme, or language package in Magento.</short-definition>
     <long-definition></long-definition>
-    <usage>The term "component" should not be used in a general sense; if it is not a module, theme, or language package then the term must be qualified to distinguish it from the "core" Magento components. Example: When discussing the Javascript classes and objects used to add or customize UI elements, use the term "UI components," and never simply &#8220;components.&#8221;
+    <usage>The term "component" should not be used in a general sense; if it is not a module, theme, or language package then the term must be qualified to distinguish it from the "core" Magento components. 
+
+Example: When discussing the Javascript classes and objects used to add or customize UI elements, use the term "UI components," and never simply &#8220;components.&#8221;
+
+More guidelines:
 
 &#8226; Should be referenced as Magento component unless the context is already clear.
 &#8226; Although you don't have to package it using Composer, it's implied that you do. In others, make clear when you're not discussing a component as a Composer package.
@@ -5729,7 +5747,7 @@ This combination enables CSS to be themed and more maintainable and extendable. 
     <uuid>5e7de323-626b-4d1b-a7e5-c8d13a92c5d3</uuid>
     <title>Magento file system owner</title>
     <types>
-      <type></type>
+      <type>glossary</type>
     </types>
     <form-types>
       <form text="Magento file system owner">
@@ -6190,8 +6208,16 @@ Magento UI components, a Less frontend library, use a set of mixins for base ele
 A module can also implement widgets, which are page elements that can be customized by business users in the Admin .
 
 Modules can be disabled or removed without breaking the consistency of the Magento application. One exception: When the module depends on other modules, which requires disabling or removing the dependant modules.</long-definition>
-    <usage>See Module Reference, https://wiki.corp.magento.com/display/MDOC/Module+Reference; Magento Module, https://wiki.corp.magento.com/display/MAGE2/Magento+Module;</usage>
+    <usage></usage>
     <reference-links>
+      <reference-link>
+        <text>Module Reference</text>
+        <location>https://wiki.corp.magento.com/display/MDOC/Module+Reference</location>
+      </reference-link>
+      <reference-link>
+        <text>Magento Module</text>
+        <location>https://wiki.corp.magento.com/display/MAGE2/Magento+Module</location>
+      </reference-link>
       <reference-link>
         <text>PHP</text>
         <location>#bf703ab1-ca4b-48f9-b2b7-16a81fd46e02</location>
@@ -6899,6 +6925,7 @@ The navigation of a typical Magento store includes the main menu at the top of e
     <form-types>
       <form text="opt-in">
         <form-type>n</form-type>
+        <form-type>adj</form-type>
       </form>
       <form text="opt in">
         <form-type>v</form-type>
@@ -6967,9 +6994,11 @@ The navigation of a typical Magento store includes the main menu at the top of e
     </content-tags>
     <user-tags>
       <user-tag>Internal</user-tag>
+      <user-tag>Developer</user-tag>
+      <user-tag>Merchant</user-tag>
     </user-tags>
     <short-definition>Indicates the relative position and state of a customer order in a workflow. Basic stages of the workflow include Order, Payment, Invoice, and Shipment.</short-definition>
-    <long-definition>The full breakcown of order statuses includes:
+    <long-definition>The full breakdown of order statuses includes:
 &#8226; Pending - For new orders that have not been processed. Typically, these orders need to be invoiced and shipped.
 &#8226; On Hold - Order can't proceed to order processing in this state. This is used when, for example, some data must be verified.
 &#8226; Pending PayPal - For new orders placed through PayPal that are not yet cleared. When paying with PayPal, customers are redirected to the PayPal website. If customers haven't paid, order status is "Pending PayPal". These orders shouldn't be processed without checking PayPal to confirm that payment is made.
@@ -7745,6 +7774,8 @@ PaaS doesn't require customers to buy and manage infrastructure, including hardw
     </content-tags>
     <user-tags>
       <user-tag>Internal</user-tag>
+      <user-tag>Developer</user-tag>
+      <user-tag>Merchant</user-tag>
     </user-tags>
     <short-definition>Magento classifies products as one of several predefined product types including simple product, virtual product, downloadable product, grouped product, configurable product, bundle product, and gift card.</short-definition>
     <long-definition></long-definition>
@@ -7830,7 +7861,8 @@ PaaS doesn't require customers to buy and manage infrastructure, including hardw
       <content-tag>Order</content-tag>
     </content-tags>
     <user-tags>
-      <user-tag></user-tag>
+      <user-tag>Internal</user-tag>
+      <user-tag>Merchant</user-tag>
     </user-tags>
     <short-definition></short-definition>
     <long-definition></long-definition>
@@ -8083,6 +8115,8 @@ PaaS doesn't require customers to buy and manage infrastructure, including hardw
     </content-tags>
     <user-tags>
       <user-tag>Internal</user-tag>
+      <user-tag>Developer</user-tag>
+      <user-tag>Merchant</user-tag>
     </user-tags>
     <short-definition>A selection of products that is presented as an incentive to purchase additional items. For example, if the customer is viewing the product page for a camera, the related products might include other comparable cameras, a camera case, and tripod.</short-definition>
     <long-definition></long-definition>
@@ -8429,6 +8463,8 @@ The Magento Admin user interface uses an RSS feed provided by Magento to receive
     </content-tags>
     <user-tags>
       <user-tag>Internal</user-tag>
+      <user-tag>Developer</user-tag>
+      <user-tag>Merchant</user-tag>
     </user-tags>
     <short-definition>In Magento, scope describes the extent of your store hierarchy that a setting can affect. Scope can apply to the following:
 &#8226; Global &#8212; all websites, stores, and store views
@@ -8864,6 +8900,7 @@ For example, a B2B merchant has three customers who&#8217;ve negotiated specific
     </content-tags>
     <user-tags>
       <user-tag>Internal</user-tag>
+      <user-tag>Merchant</user-tag>
     </user-tags>
     <short-definition>A shipment contains products to be delivered and generates a record of the products in an order that have been shipped. More than one shipment can be associated with a single order.</short-definition>
     <long-definition></long-definition>
@@ -9149,6 +9186,8 @@ For example, a B2B merchant has three customers who&#8217;ve negotiated specific
     </content-tags>
     <user-tags>
       <user-tag>Internal</user-tag>
+      <user-tag>Developer</user-tag>
+      <user-tag>Merchant</user-tag>
     </user-tags>
     <short-definition>This is the most basic product type, a physical item with a single SKU. Simple products have a variety of pricing and of input controls which makes it possible to sell variations of the product. Simple products can be used in association with grouped, bundle, and configurable products. A simple product with custom options is sometimes referred to as a composite product.</short-definition>
     <long-definition></long-definition>
@@ -9576,6 +9615,8 @@ For example, a B2B merchant has three customers who&#8217;ve negotiated specific
     </content-tags>
     <user-tags>
       <user-tag>Internal</user-tag>
+      <user-tag>Developer</user-tag>
+      <user-tag>Merchant</user-tag>
     </user-tags>
     <short-definition>The Magento scope level of "store view" refers to third level in the hierarchy of website(s), store(s) and store view(s). &#160;Store views  typically present the storefront in a different locale and language. Use the store chooser in the header to change store views.</short-definition>
     <long-definition></long-definition>
@@ -9612,6 +9653,8 @@ For example, a B2B merchant has three customers who&#8217;ve negotiated specific
     </content-tags>
     <user-tags>
       <user-tag>Internal</user-tag>
+      <user-tag>Developer</user-tag>
+      <user-tag>Merchant</user-tag>
     </user-tags>
     <short-definition>The Magento scope level of "store" is the second level of your website's hierarchy, which goes as follows: websites(s) &gt; store(s) &gt; store view(s). Stores can be organized into one or many. Each store, potentially, has its own root category, and all share the same catalog and customer data. 
 
@@ -9809,6 +9852,8 @@ Each store can have multiple store views, which are typically used to present th
     </content-tags>
     <user-tags>
       <user-tag>Internal</user-tag>
+      <user-tag>Developer</user-tag>
+      <user-tag>Merchant</user-tag>
     </user-tags>
     <short-definition>A combination of a product tax class, customer tax class, and tax rate. This rule defines which tax calculation is applied.</short-definition>
     <long-definition></long-definition>
@@ -10332,7 +10377,7 @@ Each store can have multiple store views, which are typically used to present th
       <user-tag>Developer</user-tag>
     </user-tags>
     <short-definition>A tag designed for Magento 2 software to enable simpler and more flexible user interface (UI) rendering. </short-definition>
-    <long-definition>The goals of the UI component system includes the following:
+    <long-definition>The goals of the UI component system include the following:
 &#8226; Simplifying Layout Handle XML files
 &#8226; Moving Magneto Admin user interface elements from HTML+Javascript to a &#8220;pure javascript&#8221; custom widget system
 &#8226; Enabling the creation of more complex UI components out of smaller components
@@ -10375,7 +10420,7 @@ Each store can have multiple store views, which are typically used to present th
     </synonyms>
     <primary-source>UserDocs</primary-source>
     <content-tags>
-      <content-tag>Product</content-tag>
+      <content-tag>Magento Software</content-tag>
     </content-tags>
     <user-tags>
       <user-tag>Internal</user-tag>
@@ -10686,6 +10731,8 @@ Each store can have multiple store views, which are typically used to present th
     </content-tags>
     <user-tags>
       <user-tag>Internal</user-tag>
+      <user-tag>Developer</user-tag>
+      <user-tag>Merchant</user-tag>
     </user-tags>
     <short-definition>Represents a non-physical product that can be sold, such as a membership, service, warranty, or subscription. Virtual products can be sold individually, or included as part of the following product types: grouped product and bundle product. Does not require shipping or inventory. 
 
@@ -11016,6 +11063,8 @@ The process of creating a virtual product and a simple product is nearly the sam
     </content-tags>
     <user-tags>
       <user-tag>Internal</user-tag>
+      <user-tag>Developer</user-tag>
+      <user-tag>Merchant</user-tag>
     </user-tags>
     <short-definition>A method of filtering data that allows only the data specified on a list and nothing else.</short-definition>
     <long-definition></long-definition>
