@@ -13,7 +13,8 @@ magento.glossary.tooltip = {
             $(this).webuiPopover({
                 title: title,
                 content: content,
-                width: '300px'
+                width: '400px',
+                closeable: true
             });
             }
             else{
