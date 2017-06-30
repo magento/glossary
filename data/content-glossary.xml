@@ -8153,6 +8153,35 @@ A relative link needs the full URL of the current page to be resolved. Web brows
     <reference-links/>
   </term>
   <term>
+    <uuid>93c1fc48-502e-43e2-9897-da5863e66ad9</uuid>
+    <title>release candidate</title>
+    <types>
+      <type>glossary</type>
+    </types>
+    <form-types>
+      <form text="release candidate">
+        <form-type>n</form-type>
+      </form>
+    </form-types>
+    <synonyms>
+      <synonym>beta version</synonym>
+      <synonym>RC</synonym>
+    </synonyms>
+    <primary-source>DevDocs</primary-source>
+    <content-tags>
+      <content-tag>Magento Software</content-tag>
+      <content-tag>Programming</content-tag>
+    </content-tags>
+    <user-tags>
+      <user-tag>Internal</user-tag>
+      <user-tag>Developer</user-tag>
+    </user-tags>
+    <short-definition>A type of beta version that is almost ready to become finalized, unless significant bugs emerge. The Magento community is encouraged to provide feedback and Pull Requests (PR) in GitHub to fix errors in code, design, and documentation.</short-definition>
+    <long-definition></long-definition>
+    <usage></usage>
+    <reference-links/>
+  </term>
+  <term>
     <uuid>e0cb3613-da03-461e-8071-f6aa5d4b2451</uuid>
     <title>retain</title>
     <types>
