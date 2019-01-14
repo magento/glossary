@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="terms">
+      <xs:complexType>
+        <xs:sequence>
+            <xs:element name="term" type="TermType" maxOccurs="unbounded"/>
+        </xs:sequence>
+      </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="TermType">
+        <xs:sequence>
+            <xs:element name="uuid" type="xs:normalizedString"/>
+            <xs:element name="title" type="xs:normalizedString"/>
+            <xs:element name="types" type="TypeTypes"/>
+            <xs:element name="form-types" type="FormTypes"/>
+            <xs:element name="synonyms" type="SynonymsType" />
+            <xs:element name="primary-source" type="PrimarySourceType"/>
+            <xs:element name="content-tags" type="ContentTagsType"/>
+            <xs:element name="user-tags" type="UserTagsType"/>
+            <xs:element name="short-definition" type="xs:string" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="long-definition" type="xs:string" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="usage" type="xs:string" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="reference-links" type="ReferenceLinkTypes" minOccurs="0" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="TypeTypes">
+      <xs:sequence>
+        <xs:element name="type" type="TypeType" minOccurs="1" maxOccurs="2">
+          <xs:unique name="type_unique">
+            <xs:selector xpath="type"/>
+            <xs:field xpath="value"/>
+          </xs:unique>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="TypeType">
+      <xs:restriction base="xs:string">
+          <xs:enumeration value=""/>
+          <xs:enumeration value="glossary"/>
+          <xs:enumeration value="usage"/>
+      </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="FormTypes">
+      <xs:sequence>
+        <xs:element name="form" type="FormType" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="FormType">
+        <xs:sequence>
+            <xs:element name="form-type" type="WordType" minOccurs="1" maxOccurs="7">
+              <xs:unique name="form-type_unique">
+                <xs:selector xpath="form-type"/>
+                <xs:field xpath="value"/>
+              </xs:unique>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="text" type="xs:string"/>
+    </xs:complexType>
+
+    <xs:simpleType name="WordType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="adj"/>
+            <xs:enumeration value="adv"/>
+            <xs:enumeration value="conj"/>
+            <xs:enumeration value="n"/>
+            <xs:enumeration value="prep"/>
+            <xs:enumeration value="v"/>
+            <xs:enumeration value="prefix"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="SynonymsType">
+        <xs:sequence>
+            <xs:element name="synonym" type="xs:string" minOccurs="0" maxOccurs="unbounded">
+                <xs:unique name="synonym_unique">
+                  <xs:selector xpath="synonym"/>
+                  <xs:field xpath="value"/>
+                </xs:unique>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="PrimarySourceType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Design"/>
+            <xs:enumeration value="DevDocs"/>
+            <xs:enumeration value="Marketing"/>
+            <xs:enumeration value="Training"/>
+            <xs:enumeration value="UserDocs"/>
+            <xs:enumeration value="UX"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="ContentTagsType">
+        <xs:sequence>
+           <xs:element name="content-tag" type="ContentTagType" maxOccurs="6">
+               <xs:unique name="content-tag_unique">
+                   <xs:selector xpath="type"/>
+                   <xs:field xpath="value"/>
+               </xs:unique>
+           </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="ContentTagType">
+            <xs:restriction base="xs:string">
+                <xs:enumeration value=""/>
+                <xs:enumeration value="Business / Marketing"/>
+                <xs:enumeration value="Design"/>
+                <xs:enumeration value="Magento Software"/>
+                <xs:enumeration value="Pricing"/>
+                <xs:enumeration value="Product"/>
+                <xs:enumeration value="Programming"/>
+                <xs:enumeration value="Order"/>
+            </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="UserTagsType">
+        <xs:sequence>
+            <xs:element name="user-tag" type="UserTagType" maxOccurs="3">
+                <xs:unique name="user-tag_unique">
+                    <xs:selector xpath="type"/>
+                    <xs:field xpath="value"/>
+                </xs:unique>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="UserTagType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value=""/>
+            <xs:enumeration value="Developer"/>
+            <xs:enumeration value="Merchant"/>
+            <xs:enumeration value="Internal"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="ReferenceLinkTypes">
+      <xs:sequence>
+        <xs:element name="reference-link" type="ReferenceLinkType" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="ReferenceLinkType">
+      <xs:sequence>
+        <xs:element name="text" type="xs:string"/>
+        <xs:element name="location" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

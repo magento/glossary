@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Magento Glossary</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/glossary.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="icon" sizes="16x16 32x32" href="/favicon.ico">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="#">
+                                <img alt="Brand" src="images/m-logo.svg">
+                            </a>
+                            <span class="title">Magento Glossary</span>
+                        </div>
+                        <ul class="term-groups nav navbar-nav visible-sm-inline visible-md-inline visible-lg-inline">
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 responsive-anchor-links hidden-sm hidden-md hidden-lg">
+                        <span class="jump-to">Jump to:</span>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select a section  <span class="caret"></span>
+                            </button>
+                            <ul class="term-groups dropdown-menu">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="action-links col-md-12">
+                        <span class="visible-sm-inline visible-md-inline visible-lg-inline" >Have a suggestion?</span>
+                        <a class="feedback-link btn btn-link btn-xs" href="https://github.com/magento/glossary/issues/new">Send us feedback</a> 
+                         | 
+                         <a class="content-author-link btn btn-link btn-xs">Show content author links</a>
+                         <span class="word-usage hidden">
+                            |
+                            <a class="word-usage-link btn btn-link btn-xs" href="word-usage.html">Word Usage Terms</a> 
+                         </span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="filters row">
+                <div class="col-md-12">
+                    <span class="filter-by visible-sm-inline visible-md-inline visible-lg-inline">Filter by:</span>
+                    <div class="btn-group" id="user-tags">
+                    </div>
+                    <div class="btn-group" id="content-tags">
+                    </div>
+                    <div class="btn-group" id="primary-source">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="filters-list col-md-12">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-9" id="glossary-terms"></div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mustache.min.js"></script>
+    <script id="termGroupTemplate" type="x-tmpl-mustache">
+        <div class="term-group" id="{{group}}-container">
+            <span class="anchor" id="{{group}}"></span>
+            <h2>{{group}}</h2>
+            <div class="back-to-top clearfix">
+            </div>
+            <hr/>
+        </div>
+    </script>
+    <script id="termTemplate" type="x-tmpl-mustaches">
+        <div class="row term {{#userTagsArray}}user-tag-{{.}} {{/userTagsArray}}{{#contentTagsArray}}content-tag-{{.}} {{/contentTagsArray}}{{#primarySource}}source-{{primarySource}}{{/primarySource}}" >
+            <span class="anchor" id="{{id}}"></span>
+            <div class="col-sm-9 term-data">
+                <h3>{{#forms}}{{form}} <small>({{types}})</small> {{/forms}}{{^forms}}{{title}}{{/forms}} <button class="btn btn-link btn-xs toggle-metadata hidden" type="button">Show Metadata</button> </h3>
+                <div class="hidden metadata">
+                    <table class="table table-condensed table-striped table-bordered">
+                        <tr>
+                            <th>UUID</th>
+                            <td><a href="?#{{id}}">{{id}}</a></td>
+                        </tr>
+                        <tr>
+                            <th>Synonyms</th>
+                            <td>{{#synonyms}}<span class="synonym">{{.}}</span>{{/synonyms}}</td>
+                        </tr>
+                        <tr>
+                            <th>Primary Source</th>
+                            <td>{{primarySource}}</td>
+                        </tr>
+                        <tr>
+                            <th>User Tags</th>
+                            <td>{{#userTagsArray}}<code>{{.}}</code> {{/userTagsArray}}</td>
+                        </tr>
+                        <tr>
+                            <th>Content Tags</th>
+                            <td>{{#contentTagsArray}}<code>{{.}}</code> {{/contentTagsArray}}</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="definition">
+                    <p>
+                    <span class="short-definition">{{{shortDefinition}}} </span>
+                    </p>
+                    {{#longDefinition}}
+                    <p>
+                        <span class="long-definition hidden">{{{longDefinition}}}</span>
+                        <span class="show-definition" type="button">More...</span> 
+                    </p>
+                    <br/>
+                    {{/longDefinition}}
+                </div>
+                {{#showReferenceLinks}}
+                <strong>See also: </strong>{{#referenceLinks}}<span class="reference-link"><a href="{{location}}">{{text}}</a></span>{{/referenceLinks}}
+                {{/showReferenceLinks}}
+            </div>
+        </div>
+    </script>
+    <script id="termGroupsTemplate" type="x-tmpl-mustaches">
+        {{#groups}}
+        <div class="col-md-1">
+            <button class="btn btn-default group-controller" type="button" containers="{{containers}}" id="{{id}}">{{buttonText}}</button>
+        </div> 
+        {{/groups}}
+    </script>
+    <script src="js/glossary.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            magento.glossary.init("data/content-glossary.xml",function(term){return term.types.includes("glossary");},magento.glossary.page.insertTerms); 
+            magento.glossary.page.init(); 
+        }); 
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+.DS_Store
+_site
+_data
+node_modules
+*.pyc
+*~$*
+*.min.*

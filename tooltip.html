@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tooltip Example</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.webui-popover/1.2.1/jquery.webui-popover.min.css">
+
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+        }
+        .glossary-term {
+            border-bottom: dashed 1px;
+            cursor: help;
+        }
+    </style>
+  </head>
+  <body>
+        <h2>Tooltip Example</h2>
+        <p>The following is an example of a tooltip: <span term-uuid="8d40d668-4996-4856-9f81-b1386cf4b14f" class="glossary-term" data-toggle="popover">catalog</span></p>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    
+    <script src="js/glossary.tooltip.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/jquery.webui-popover/1.2.1/jquery.webui-popover.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            magento.glossary.init("data/content-glossary.xml",function(term){return term.types.includes("glossary");},magento.glossary.tooltip.init); 
+        });
+    </script>
+  </body>
+</html>
