@@ -1,0 +1,21 @@
+{
+    "title": "register",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "register",
+            "wordClasses": [
+                "v"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [],
+    "usage": "Use “sign up”, “join” or “create an account” instead."
+}

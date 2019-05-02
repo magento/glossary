@@ -1,0 +1,14 @@
+{
+    "title": "(s)",
+    "types": [
+        "usage"
+    ],
+    "formTypes": {},
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [],
+    "usage": "Indicates singular, rather than plural. Avoided in running text. Can be used if it’s in the UI."
+}

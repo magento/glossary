@@ -1,0 +1,28 @@
+{
+    "title": "layout update",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "layout update",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Design",
+        "Magento Software"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "Used for snippets of code that that are added to modify the XML layout or to import the layout instructions from another file.",
+    "referenceLinks": [
+        "layout update examples"
+    ]
+}

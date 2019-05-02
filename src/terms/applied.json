@@ -1,0 +1,21 @@
+{
+    "title": "applied",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "applied",
+            "wordClasses": [
+                "v"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [],
+    "usage": "Use “on”, “active”, or “in use”, instead. Example: You have 3 filters on."
+}

@@ -1,0 +1,21 @@
+{
+    "title": "utilize",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "utilize",
+            "wordClasses": [
+                "v"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [],
+    "usage": "Use “use” instead."
+}

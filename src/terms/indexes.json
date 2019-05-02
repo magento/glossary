@@ -1,0 +1,21 @@
+{
+    "title": "indexes",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "indexes",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [],
+    "usage": "Not indices."
+}

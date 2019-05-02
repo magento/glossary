@@ -1,0 +1,20 @@
+{
+    "title": "end-to-end",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "end-to-end",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "Marketing",
+    "contentTags": [
+        "Business / Marketing"
+    ],
+    "userTags": []
+}

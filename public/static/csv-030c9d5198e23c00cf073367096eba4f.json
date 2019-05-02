@@ -1,0 +1,28 @@
+{
+    "title": "CSV",
+    "types": [
+        "glossary",
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "CSV",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [
+        "comma-separated values"
+    ],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "An abbreviation for \"comma-separated values\". A type of file used to store data values which are separated from each other by commas, using one row for each set of values.",
+    "usage": "CSV can be used on first reference."
+}

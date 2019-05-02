@@ -1,0 +1,20 @@
+{
+    "title": "themeable",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "themeable",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": []
+}

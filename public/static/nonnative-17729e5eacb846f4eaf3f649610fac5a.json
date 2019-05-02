@@ -1,0 +1,20 @@
+{
+    "title": "nonnative",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "nonnative",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": []
+}

@@ -1,0 +1,24 @@
+{
+    "title": "Boolean",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "Boolean",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Programming"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer"
+    ],
+    "usage": "Use initial cap."
+}

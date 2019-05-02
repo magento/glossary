@@ -1,0 +1,35 @@
+{
+    "title": "API",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "API",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [
+        "application programming",
+        "interface",
+        "integration API",
+        "web API"
+    ],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Programming"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer",
+        "Merchant"
+    ],
+    "shortDefinition": "Abbreviation for application program interface. A software interface that lets third-party applications read and write to a system using programming language constructs or statements.",
+    "referenceLinks": [
+        "web API",
+        "integration API",
+        "service contract"
+    ]
+}

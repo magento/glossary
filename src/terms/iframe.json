@@ -1,0 +1,22 @@
+{
+    "title": "Iframe",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "Iframe",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Design",
+        "Programming"
+    ],
+    "userTags": [],
+    "usage": "Not \"iFrame\"."
+}

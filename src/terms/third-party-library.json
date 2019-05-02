@@ -1,0 +1,27 @@
+{
+    "title": "third-party library",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "third-party library",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "DevDocs",
+    "contentTags": [
+        "Programming"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer"
+    ],
+    "shortDefinition": "An external set of code developed by a third-party developer or partner.",
+    "referenceLinks": [
+        "library"
+    ]
+}

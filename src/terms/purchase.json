@@ -1,0 +1,24 @@
+{
+    "title": "purchase",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "purchase",
+            "wordClasses": [
+                "v"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Order"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "usage": "Use “buy” instead."
+}

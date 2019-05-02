@@ -1,0 +1,21 @@
+{
+    "title": "upvote",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "upvote",
+            "wordClasses": [
+                "v"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [],
+    "usage": "No space."
+}

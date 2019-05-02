@@ -1,0 +1,25 @@
+{
+    "title": "scope",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "scope",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UX",
+    "contentTags": [
+        "Magento Software"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer",
+        "Merchant"
+    ],
+    "shortDefinition": "In Magento, scope describes the extent of your store hierarchy that a setting can affect. Scope can apply to the following:\n• Global — all websites, stores, and store views\n• Website — the selected website and all stores and store views under it\n• Store — the selected store and all store views under it\n• Store View — the selected store view. \nWithin the hierarchy, settings applied at a lower level can override some higher-level settings."
+}

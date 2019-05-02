@@ -1,0 +1,21 @@
+{
+    "title": "low-stock",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "low-stock",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Product"
+    ],
+    "userTags": [],
+    "usage": "Hyphenate as adj."
+}

@@ -1,0 +1,23 @@
+{
+    "title": "merchandise",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "merchandise",
+            "wordClasses": [
+                "n",
+                "v"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing",
+        "Product"
+    ],
+    "userTags": [],
+    "usage": "Not “merchandize”."
+}

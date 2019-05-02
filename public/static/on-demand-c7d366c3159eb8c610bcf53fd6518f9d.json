@@ -1,0 +1,20 @@
+{
+    "title": "on demand",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "on demand",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "Marketing",
+    "contentTags": [
+        null
+    ],
+    "userTags": []
+}

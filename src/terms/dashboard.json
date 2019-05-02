@@ -1,0 +1,22 @@
+{
+    "title": "dashboard",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "dashboard",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing",
+        "Design"
+    ],
+    "userTags": [],
+    "usage": "No initial cap."
+}

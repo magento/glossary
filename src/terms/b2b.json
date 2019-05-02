@@ -1,0 +1,29 @@
+{
+    "title": "B2B",
+    "types": [
+        "glossary",
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "B2B",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "An abbreviation for \"business to business.\" A type of business transaction between two business entities that are not the final consumers of the goods or services.",
+    "usage": "B2B can be used on first reference.",
+    "referenceLinks": [
+        "B2C"
+    ]
+}

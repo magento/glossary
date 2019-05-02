@@ -1,0 +1,21 @@
+{
+    "title": "downsize",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "downsize",
+            "wordClasses": [
+                "v"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [],
+    "usage": "Not “down size”."
+}

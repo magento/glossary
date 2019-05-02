@@ -1,0 +1,20 @@
+{
+    "title": "preconditions",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "preconditions",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": []
+}

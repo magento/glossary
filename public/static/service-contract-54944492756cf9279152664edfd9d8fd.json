@@ -1,0 +1,28 @@
+{
+    "title": "service contract",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "service contract",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "DevDocs",
+    "contentTags": [
+        "Programming"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer"
+    ],
+    "shortDefinition": "A set of PHP interfaces that are defined for a module. A service contract includes data interfaces, which preserve data integrity, and service interfaces, which hide business logic details from service requestors such as controllers, web services, and other modules. Web APIs can be bound to service contracts via configuration files.",
+    "referenceLinks": [
+        "PHP",
+        "web API"
+    ]
+}

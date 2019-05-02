@@ -1,0 +1,28 @@
+{
+    "title": "invoice",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "invoice",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing",
+        "Order"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "A document that provides a detailed description of a purchase, including products purchased, quantity, price, shipping cost, sales tax, and total. If the products in an order are shipped in multiple shipments, then an invoice is generated for each shipment for the products in that shipment.",
+    "referenceLinks": [
+        "quote"
+    ]
+}

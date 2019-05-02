@@ -1,0 +1,28 @@
+{
+    "title": "CMS block",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "CMS block",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "DevDocs",
+    "contentTags": [
+        "Magento Software"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer"
+    ],
+    "shortDefinition": "A special variant of block that can only be created in the Magento Admin and can't be referenced through layout files.",
+    "referenceLinks": [
+        "block",
+        "static block"
+    ]
+}

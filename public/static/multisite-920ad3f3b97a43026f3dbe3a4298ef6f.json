@@ -1,0 +1,20 @@
+{
+    "title": "multisite",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "multisite",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": []
+}

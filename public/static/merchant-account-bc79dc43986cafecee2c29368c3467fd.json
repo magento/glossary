@@ -1,0 +1,24 @@
+{
+    "title": "merchant account",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "merchant account",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "An account with a bank or financial institution that makes it possible to accept credit card transactions."
+}

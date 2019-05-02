@@ -1,0 +1,31 @@
+.panel {
+}
+
+.panelContent {
+  position: relative;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
+  border-right: 1px solid #f4f3f4;
+  background-color: #ffffff;
+  transition: transform 0.2s ease;
+  padding-top: 20px;
+  padding-bottom: 55px;
+  z-index: 2;
+}
+
+@media (max-width: 768px) {
+  .panelContent {
+    width: 80%;
+    transform: translateX(0);
+  }
+  .hidden {
+    visibility: hidden;
+  }
+
+  .hidden .panelContent {
+    visibility: hidden;
+    transform: translateX(-100%);
+    transition: visibility 0s 0.25s, transform 0.2s ease;
+  }
+}

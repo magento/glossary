@@ -1,0 +1,24 @@
+{
+    "title": "e-",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "e-",
+            "wordClasses": [
+                "prefix"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [],
+    "usage": "Prefix (for “electronic”) uses hyphen, except for well-established terms such as “ebook”, “email”. Note: We don't use \"ecommerce\".",
+    "referenceLinks": [
+        "commerce"
+    ]
+}

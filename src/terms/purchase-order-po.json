@@ -1,0 +1,28 @@
+{
+    "title": "purchase order (PO)",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "purchase order (PO)",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing",
+        "Order"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "A payment method that allows commercial customers to make purchases with prior authorization.  During checkout, the customer references the PO number as the method of payment.  An invoice is sent and processed through the company's accounts payable system.",
+    "referenceLinks": [
+        "invoice"
+    ]
+}

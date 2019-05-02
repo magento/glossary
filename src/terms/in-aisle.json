@@ -1,0 +1,20 @@
+{
+    "title": "in-aisle",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "in-aisle",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "Marketing",
+    "contentTags": [
+        "Business / Marketing"
+    ],
+    "userTags": []
+}

@@ -1,0 +1,27 @@
+{
+    "title": "robots.txt",
+    "types": [
+        "glossary",
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "robots.txt",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Design",
+        "Programming"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "A file placed on a website that tells search-engine crawlers which pages not to index.",
+    "usage": "Not capitalized. Pronounced “robots dot text”."
+}

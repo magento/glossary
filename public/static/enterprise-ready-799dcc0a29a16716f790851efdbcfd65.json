@@ -1,0 +1,24 @@
+{
+    "title": "enterprise-ready",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "enterprise-ready",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "Marketing",
+    "contentTags": [
+        "Business / Marketing"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer",
+        "Merchant"
+    ]
+}

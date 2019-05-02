@@ -1,0 +1,21 @@
+{
+    "title": "subfolder",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "subfolder",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [],
+    "usage": "Not “sub-folder”."
+}

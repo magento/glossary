@@ -1,0 +1,20 @@
+{
+    "title": "PayPal",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "PayPal",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Order"
+    ],
+    "userTags": []
+}

@@ -1,0 +1,20 @@
+{
+    "title": "multi-core",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "multi-core",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": []
+}

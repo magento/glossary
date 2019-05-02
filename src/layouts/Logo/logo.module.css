@@ -1,0 +1,36 @@
+.link {
+  display: inline-flex;
+  align-items: center;
+  color: #2B2B2C;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.link:hover {
+  text-decoration: none;
+}
+
+.siteTitle {
+  display: block;
+  font-size: 22px;
+  font-weight: normal;
+  letter-spacing: .01em;
+  padding: 0 10px;
+  margin: 0 0 0 10px;
+  border-left: 1px solid #4E4E4E;
+}
+
+.mLogo, .magentoLogo {
+  transform: translateY(2px);
+}
+
+@media only screen and (max-width: 768px) {
+  .magentoLogo {
+    display: none;
+  }
+
+  .mLogo {
+    transform: translateY(4px);
+  }
+}
+

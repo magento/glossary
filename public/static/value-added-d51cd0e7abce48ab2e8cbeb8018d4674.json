@@ -1,0 +1,23 @@
+{
+    "title": "value-added",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "value-added",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "Marketing",
+    "contentTags": [
+        "Business / Marketing"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ]
+}

@@ -1,0 +1,30 @@
+.navigation {
+  display: grid;
+}
+
+.navigationTitle {
+  padding: 0.5em 1em;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+.navigationItem {
+  text-decoration: none;
+  padding: 0.5em 0 0.5em 1.5em;
+  color: #757575;
+}
+
+.navigationItem:hover {
+  background-color: #f2f3f3;
+}
+
+.selectedNavigationItem {
+  composes: navigationItem;
+  background-color: #e5f8f9;
+}
+
+.groupLabel {
+  padding-left: 1.1em;
+  color: #ADADAD;
+  font-weight: normal;
+}

@@ -1,0 +1,24 @@
+{
+    "title": "web server",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "web server",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Programming"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer",
+        "Merchant"
+    ]
+}

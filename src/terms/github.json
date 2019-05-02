@@ -1,0 +1,23 @@
+{
+    "title": "GitHub",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "GitHub",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Programming"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer"
+    ]
+}

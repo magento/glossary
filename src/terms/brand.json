@@ -1,0 +1,25 @@
+{
+    "title": "brand",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "brand",
+            "wordClasses": [
+                "n",
+                "v"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "A unique identity that defines a particular product or group of products."
+}

@@ -1,0 +1,22 @@
+{
+    "title": "WordPress",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "WordPress",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing",
+        "Design",
+        "Programming"
+    ],
+    "userTags": []
+}

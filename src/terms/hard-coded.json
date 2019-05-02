@@ -1,0 +1,20 @@
+{
+    "title": "hard-coded",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "hard-coded",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Programming"
+    ],
+    "userTags": []
+}

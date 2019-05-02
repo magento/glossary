@@ -1,0 +1,21 @@
+{
+    "title": "filename",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "filename",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [],
+    "usage": "Not file name."
+}

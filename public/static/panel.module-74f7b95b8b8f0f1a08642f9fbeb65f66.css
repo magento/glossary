@@ -1,0 +1,33 @@
+.default {
+  overflow: auto;
+  display: grid;
+  position: fixed;
+  top: 0;
+  right: 0%;
+  width: 75%;
+  height: 100%;
+}
+
+.panel {
+  composes: default;
+  background-color: #ffffff;
+  display: grid;
+  transition: right 0.5s ease;
+}
+
+.hidden {
+  composes: panel;
+  visibility: hidden;
+  right: -75%;
+  transition: visibility 0s 0.25s, right 0.25s ease;
+}
+
+@media (min-width: 769px) {
+  .default {
+    width: 300px;
+  }
+
+  .hidden {
+    right: -300px;
+  }
+}

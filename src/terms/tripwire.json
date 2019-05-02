@@ -1,0 +1,21 @@
+{
+    "title": "Tripwire",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "Tripwire",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing",
+        "Programming"
+    ],
+    "userTags": []
+}

@@ -1,0 +1,23 @@
+{
+    "title": "textbox",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "textbox",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [
+        "data field"
+    ],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Design",
+        "Programming"
+    ],
+    "userTags": []
+}

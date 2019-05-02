@@ -2,6 +2,7 @@
 _site
 _data
 node_modules
+.cache
 *.pyc
 *~$*
 *.min.*

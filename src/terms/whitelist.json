@@ -1,0 +1,30 @@
+{
+    "title": "whitelist",
+    "types": [
+        "glossary",
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "whitelist",
+            "wordClasses": [
+                "n",
+                "v"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [
+        "Internal",
+        "Developer",
+        "Merchant"
+    ],
+    "shortDefinition": "A method of filtering data that allows only the data specified on a list and nothing else.",
+    "referenceLinks": [
+        "blacklist"
+    ]
+}

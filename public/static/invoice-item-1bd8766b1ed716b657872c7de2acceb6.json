@@ -1,0 +1,28 @@
+{
+    "title": "invoice item",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "invoice item",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "DevDocs",
+    "contentTags": [
+        "Business / Marketing",
+        "Order"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer"
+    ],
+    "shortDefinition": "A purchased item in an invoice.",
+    "referenceLinks": [
+        "invoice"
+    ]
+}

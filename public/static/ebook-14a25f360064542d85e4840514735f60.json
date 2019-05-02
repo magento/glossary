@@ -1,0 +1,22 @@
+{
+    "title": "eBook",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "eBook",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "Marketing",
+    "contentTags": [
+        "Business / Marketing",
+        "Design",
+        "Product"
+    ],
+    "userTags": []
+}

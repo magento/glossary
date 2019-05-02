@@ -1,0 +1,22 @@
+{
+    "title": "female",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "female",
+            "wordClasses": [
+                "n",
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [],
+    "usage": "Use “woman” instead, except when used as an adjective, in some cases."
+}

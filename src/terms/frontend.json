@@ -1,0 +1,35 @@
+{
+    "title": "frontend",
+    "types": [
+        "glossary",
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "frontend",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [
+        "client side"
+    ],
+    "primarySource": "DevDocs",
+    "contentTags": [
+        "Design",
+        "Programming"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer"
+    ],
+    "shortDefinition": "In a client-server application, there is the backend and frontend. The frontend component, or client, is an interface that enables users to manipulate or interact with the underlying backend code. Backend code runs on a server. A user cannot directly access backend code. A user interacts with the storefront, which in turn uses code running on the Magento server.",
+    "longDefinition": "Note: In the past, the Magento storefront has been referred to as the \"frontend\", and the Magento Admin has been referred to as the \"backend\". This usage is no longer supported.",
+    "usage": "To clarify due to past confusing usage of the term, use as an adjective only. Examples: frontend component, frontend developer.\n\nUse “storefront” when referring to a shopper’s view of a merchant store. Can be used in DevDocs.",
+    "referenceLinks": [
+        "backend",
+        "storefront",
+        "cache frontend"
+    ]
+}

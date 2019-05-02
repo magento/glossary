@@ -1,0 +1,21 @@
+{
+    "title": "dropdown",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "dropdown",
+            "wordClasses": [
+                "n",
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Design"
+    ],
+    "userTags": []
+}

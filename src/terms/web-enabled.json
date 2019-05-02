@@ -1,0 +1,20 @@
+{
+    "title": "web-enabled",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "web-enabled",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "Marketing",
+    "contentTags": [
+        "Business / Marketing"
+    ],
+    "userTags": []
+}

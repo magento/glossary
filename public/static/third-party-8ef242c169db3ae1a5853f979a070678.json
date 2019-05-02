@@ -1,0 +1,27 @@
+{
+    "title": "third party",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "third party",
+            "wordClasses": [
+                "n"
+            ]
+        },
+        {
+            "form": "third-party",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "Marketing",
+    "contentTags": [
+        "Business / Marketing",
+        "Programming"
+    ],
+    "userTags": []
+}

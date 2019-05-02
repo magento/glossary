@@ -1,0 +1,21 @@
+{
+    "title": "view",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "view",
+            "wordClasses": [
+                "v"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [],
+    "usage": "Use “see”, “open”, or “review” instead."
+}

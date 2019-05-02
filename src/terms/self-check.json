@@ -1,0 +1,20 @@
+{
+    "title": "self-check",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "self-check",
+            "wordClasses": [
+                "v"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": []
+}

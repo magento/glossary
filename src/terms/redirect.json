@@ -1,0 +1,26 @@
+{
+    "title": "redirect",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "redirect",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing",
+        "Design",
+        "Programming"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer",
+        "Merchant"
+    ]
+}

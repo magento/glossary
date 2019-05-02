@@ -1,0 +1,20 @@
+{
+    "title": "extensibility",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "extensibility",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "programming"
+    ],
+    "userTags": []
+}

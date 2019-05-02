@@ -1,0 +1,23 @@
+{
+    "title": "direct-to-consumer",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "direct-to-consumer",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "Marketing",
+    "contentTags": [
+        "Business / Marketing"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "title": "multichannel",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "multichannel",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ]
+}

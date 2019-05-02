@@ -1,0 +1,29 @@
+{
+    "title": "sidebar",
+    "types": [
+        "glossary",
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "sidebar",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Design"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "The right or left column in a page that has a 2- or 3-column layout.",
+    "usage": "Internal Use: Magento has a primary and secondary sidebar:\n• Two column — primary is above secondary, in either the left or right column.\n• Three column — primary is on the left, and secondary is on the right.",
+    "referenceLinks": [
+        "layout"
+    ]
+}

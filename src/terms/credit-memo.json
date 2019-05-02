@@ -1,0 +1,25 @@
+{
+    "title": "credit memo",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "credit memo",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing",
+        "Order"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "A document issued by the merchant to a customer to write off an outstanding balance because of overcharge, rebate, or return of goods. The memo restores funds to the customer's account."
+}

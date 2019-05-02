@@ -1,0 +1,24 @@
+{
+    "title": "gross margin",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "gross margin",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "The difference between the cost and price of a product."
+}

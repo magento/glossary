@@ -1,0 +1,24 @@
+{
+    "title": "brick-and-mortar",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "brick-and-mortar",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "A retail business with a permanent physical location, as opposed to businesses that function virtually or solely through the internet."
+}

@@ -1,0 +1,21 @@
+{
+    "title": "backorder",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "backorder",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing",
+        "Order"
+    ],
+    "userTags": []
+}

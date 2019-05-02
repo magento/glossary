@@ -1,0 +1,25 @@
+{
+    "title": "wishlist",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "wishlist",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Product"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer",
+        "Merchant"
+    ],
+    "usage": "Not “wish list”."
+}

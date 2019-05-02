@@ -1,0 +1,21 @@
+{
+    "title": "optimal",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "optimal",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [],
+    "usage": "Use “best” instead."
+}

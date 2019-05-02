@@ -1,0 +1,35 @@
+{
+    "title": "backend",
+    "types": [
+        "glossary",
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "backend",
+            "wordClasses": [
+                "n",
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [
+        "server side"
+    ],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Programming"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer",
+        "Merchant"
+    ],
+    "shortDefinition": "Generally used in the same way as \"server side\".",
+    "usage": "OK in DevDocs, but use \"server side\", where it's more accurate. Not “back end”. Merchant docs use “Magento Admin” or “Admin” on second reference.",
+    "referenceLinks": [
+        "server side",
+        "frontend",
+        "cache backend"
+    ]
+}

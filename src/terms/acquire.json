@@ -1,0 +1,21 @@
+{
+    "title": "acquire",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "acquire",
+            "wordClasses": [
+                "v"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [],
+    "usage": "Use “get” instead."
+}

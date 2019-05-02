@@ -1,0 +1,27 @@
+{
+    "title": "area",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "area",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "DevDocs",
+    "contentTags": [
+        "Magento Software"
+    ],
+    "userTags": [],
+    "shortDefinition": "Area is an abstract term for a Magento application scope. Areas are logical components that organize code for optimized request processing. Areas reduce the memory demands of configuration objects accessed from the storefront, and they streamline web service calls by loading only the required dependent code. Each area can contain completely different code to process URLs and requests.",
+    "longDefinition": "Magento areas include:\n• Magento Admin (adminhtml)\n• Storefront (frontend)\n• Web API REST (webapi_rest)",
+    "referenceLinks": [
+        "DevDocs - Modules and Areas",
+        "Magento component",
+        "storefront"
+    ]
+}

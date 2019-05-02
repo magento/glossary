@@ -1,0 +1,28 @@
+{
+    "title": "backup",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "backup",
+            "wordClasses": [
+                "n",
+                "adj"
+            ]
+        },
+        {
+            "form": "back up",
+            "wordClasses": [
+                "v"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [],
+    "usage": "Not “back-up”. Use “back-up” only as a modifier."
+}

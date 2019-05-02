@@ -1,0 +1,20 @@
+{
+    "title": "off-the-shelf",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "off-the-shelf",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "Marketing",
+    "contentTags": [
+        "Business / Marketing"
+    ],
+    "userTags": []
+}

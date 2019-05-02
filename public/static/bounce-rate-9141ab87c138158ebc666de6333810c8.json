@@ -1,0 +1,24 @@
+{
+    "title": "bounce rate",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "bounce rate",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "The percentage of website visitors that land on a page and then leave without navigating further into the site."
+}

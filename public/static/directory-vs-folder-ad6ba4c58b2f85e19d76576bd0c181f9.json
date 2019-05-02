@@ -1,0 +1,27 @@
+{
+    "title": "directory vs. folder",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "directory vs. folder",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [
+        "folder vs. directory"
+    ],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [
+        "Internal",
+        "Developer",
+        "Merchant"
+    ],
+    "usage": "Use “directory” for source code, logs, and specifications. Use “folder” for merchant-facing content."
+}

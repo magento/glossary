@@ -1,0 +1,21 @@
+{
+    "title": "real time",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "real time",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [],
+    "usage": "Not “realtime”. Use “real-time” as a modifier."
+}

@@ -1,0 +1,21 @@
+{
+    "title": "is",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "is",
+            "wordClasses": [
+                "v"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [],
+    "usage": "Use title case capitalization in headings, titles – all verbs are capitalized, regardless of length."
+}

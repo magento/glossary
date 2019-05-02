@@ -1,0 +1,23 @@
+{
+    "title": "SLA-backed",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "SLA-backed",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "Marketing",
+    "contentTags": [
+        "Business / Marketing"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ]
+}

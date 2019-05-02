@@ -1,0 +1,25 @@
+{
+    "title": "conversion",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "conversion",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing",
+        "Order"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "A marketing term that indicates when a goal is reached. If the goal is to sell a product, conversion is reached when a visitor becomes a buyer."
+}

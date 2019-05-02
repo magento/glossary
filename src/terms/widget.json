@@ -1,0 +1,29 @@
+{
+    "title": "widget",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "widget",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing",
+        "Magento Software"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer",
+        "Merchant"
+    ],
+    "shortDefinition": "A widget is a prepared snippet of code that can be used to place blocks, links, and dynamic content at specific locations on store pages.",
+    "referenceLinks": [
+        "block"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "title": "timeline",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "timeline",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": []
+}

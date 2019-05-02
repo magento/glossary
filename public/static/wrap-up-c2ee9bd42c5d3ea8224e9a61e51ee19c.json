@@ -1,0 +1,21 @@
+{
+    "title": "wrap-up",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "wrap-up",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [],
+    "usage": "For Magento U course sections. in headings: “Wrap-Up”."
+}
