@@ -1,6 +1,7 @@
 .DS_Store
 _site
 _data
+public
 node_modules
 .cache
 *.pyc
