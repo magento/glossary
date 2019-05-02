@@ -15,7 +15,7 @@ Definition:
 
 <!-- (REQUIRED) Full definition of the term. -->
 
-[Tag](https://github.com/jcalcaben/gatsby-glossary-app/wiki/Glossary-Template#tag-reference) (one required):
+[Tag](https://github.com/magento/glossary/wiki/Glossary-Template#tag-reference) (one required):
 
 <!-- (REQUIRED) One or more tags for the term. -->
 

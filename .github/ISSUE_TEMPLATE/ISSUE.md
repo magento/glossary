@@ -15,7 +15,7 @@ What's wrong:
 
 - [ ] Incorrect definition
 - [ ] Incorrect related links
-- [ ] Incorrect [tagging](https://github.com/jcalcaben/gatsby-glossary-app/wiki/Glossary-Template#tag-reference)
+- [ ] Incorrect [tagging](https://github.com/magento/glossary/wiki/Glossary-Template#tag-reference)
 - [ ] Other (please specify)
 
 <!-- (REQUIRED) More information, definition, links, tags, etc. -->

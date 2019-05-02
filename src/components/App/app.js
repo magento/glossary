@@ -32,13 +32,13 @@ class App extends Component {
             <div className={styles.introLinks}>
               <a
                 className={styles.introLink}
-                href="https://github.com/jcalcaben/gatsby-glossary-app"
+                href="https://github.com/magento/glossary"
               >
                 GitHub repository
               </a>
               <a
                 className={styles.introLink}
-                href="https://github.com/jcalcaben/gatsby-glossary-app/wiki"
+                href="https://github.com/magento/glossary/wiki"
               >
                 How to contribute
               </a>
