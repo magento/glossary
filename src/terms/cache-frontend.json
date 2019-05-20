@@ -1,0 +1,27 @@
+{
+    "title": "cache frontend",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "cache frontend",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "DevDocs",
+    "contentTags": [
+        "Programming"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer"
+    ],
+    "shortDefinition": "Specifies what kind of data is stored in the cache backend.",
+    "referenceLinks": [
+        "frontend"
+    ]
+}

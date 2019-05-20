@@ -1,0 +1,24 @@
+{
+    "title": "internet",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "internet",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "Marketing",
+    "contentTags": [
+        "Business / Marketing"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer",
+        "Merchant"
+    ]
+}

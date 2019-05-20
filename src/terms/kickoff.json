@@ -1,0 +1,20 @@
+{
+    "title": "kickoff",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "kickoff",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": []
+}

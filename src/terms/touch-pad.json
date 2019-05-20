@@ -1,0 +1,21 @@
+{
+    "title": "touch pad",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "touch pad",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [],
+    "usage": "Not “touchpad”."
+}

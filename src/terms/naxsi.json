@@ -1,0 +1,28 @@
+{
+    "title": "Naxsi",
+    "types": [
+        "glossary",
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "Naxsi",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Programming"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer"
+    ],
+    "shortDefinition": "An open-source web application firewall (WAF) for Nginx.",
+    "referenceLinks": [
+        "Nginx"
+    ]
+}

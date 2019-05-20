@@ -1,0 +1,29 @@
+{
+    "title": "B2C",
+    "types": [
+        "glossary",
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "B2C",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "Abbreviation for \"business to consumer.\" Business transactions between a business entity and a consumer.",
+    "usage": "B2C can be used on first reference.",
+    "referenceLinks": [
+        "B2B"
+    ]
+}

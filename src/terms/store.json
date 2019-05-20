@@ -1,0 +1,30 @@
+{
+    "title": "store",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "store",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UX",
+    "contentTags": [
+        "Magento Software",
+        "Product"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer",
+        "Merchant"
+    ],
+    "shortDefinition": "The Magento scope level of \"store\" is the second level of your website's hierarchy, which goes as follows: websites(s) > store(s) > store view(s). Stores can be organized into one or many. Each store, potentially, has its own root category, and all share the same catalog and customer data. \n\nEach store can have multiple store views, which are typically used to present the storefront in a different locale and language.",
+    "referenceLinks": [
+        "store view",
+        "website"
+    ]
+}

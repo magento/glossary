@@ -1,0 +1,24 @@
+{
+    "title": "settlement",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "settlement",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "Settlement occurs when the acquiring bank and the issuer exchange funds and the proceeds are deposited into the merchant account."
+}

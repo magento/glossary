@@ -1,0 +1,24 @@
+{
+    "title": "base currency",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "base currency",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Pricing"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "The primary currency that is used per store view for all online payments."
+}

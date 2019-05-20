@@ -1,0 +1,26 @@
+{
+    "title": "fluid layout",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "fluid layout",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [
+        "liquid layout"
+    ],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Design"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "A flexible approach to web design that specifies the size and position of elements as percentages rather than as exact measurements in pixels."
+}

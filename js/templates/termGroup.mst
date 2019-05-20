@@ -1,3 +1,0 @@
-<div class="term-group hidden" id="{{group}}-container">
-    <h2 id="{{group}}">{{group}}</h2>
-</div>

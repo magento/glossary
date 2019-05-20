@@ -1,0 +1,27 @@
+{
+    "title": "anchor text",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "anchor text",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Programming"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "The text, or label, in a hyperlink that is visible and clickable. Anchor text is important in search engine optimization.",
+    "referenceLinks": [
+        "search engine optimization"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "title": "whitespace",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "whitespace",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": []
+}

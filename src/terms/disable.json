@@ -1,0 +1,21 @@
+{
+    "title": "disable",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "disable",
+            "wordClasses": [
+                "v"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [],
+    "usage": "Use “turn off” instead, when possible."
+}

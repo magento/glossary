@@ -1,0 +1,28 @@
+{
+    "title": "quote",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "quote",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing",
+        "Order"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "A pricing document that a company uses to show a customer how much an order will cost, including a breakdown of elements that affect the cost.",
+    "referenceLinks": [
+        "invoice"
+    ]
+}

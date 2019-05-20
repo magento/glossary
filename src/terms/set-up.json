@@ -1,0 +1,27 @@
+{
+    "title": "set up",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "set up",
+            "wordClasses": [
+                "v"
+            ]
+        },
+        {
+            "form": "setup",
+            "wordClasses": [
+                "adj",
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": []
+}

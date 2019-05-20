@@ -1,0 +1,29 @@
+{
+    "title": "library",
+    "types": [
+        "glossary",
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "library",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "DevDocs",
+    "contentTags": [
+        "Magento Software"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer"
+    ],
+    "shortDefinition": "In the Magento system, a logical grouping of functionality or related code within the framework layer. Magento includes its own framework libraries as well as third-party libraries within the software.",
+    "usage": "Refer to a library by its namespace. For example, the Magento Filesystem library.",
+    "referenceLinks": [
+        "third-party library"
+    ]
+}

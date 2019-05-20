@@ -1,0 +1,29 @@
+{
+    "title": "Nginx",
+    "types": [
+        "glossary",
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "Nginx",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Programming"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer"
+    ],
+    "shortDefinition": "(Pronounced \"engine x\") A free, open-source software that functions as a web server or a reverse proxy (for TCP, UDP, HTTP, HTTPS, SMTP, POP3, and IMAP protocols), as well as a load balancer and an HTTP cache.",
+    "usage": "Pronounced “engine-X”, so “an Nginx command”",
+    "referenceLinks": [
+        "Naxsi"
+    ]
+}

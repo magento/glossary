@@ -1,0 +1,20 @@
+{
+    "title": "rules-based",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "rules-based",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "Marketing",
+    "contentTags": [
+        "Business / Marketing"
+    ],
+    "userTags": []
+}

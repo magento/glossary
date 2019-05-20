@@ -1,0 +1,21 @@
+{
+    "title": "wireframe",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "wireframe",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Design"
+    ],
+    "userTags": [],
+    "usage": "A rough, lo-fidelity version of a web page or pages, including UI and user experience behaviors and specifications."
+}

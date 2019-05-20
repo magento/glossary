@@ -1,0 +1,24 @@
+{
+    "title": "command-line",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "command-line",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [
+        "Internal",
+        "Developer"
+    ],
+    "usage": "Hyphenate as a modifier."
+}

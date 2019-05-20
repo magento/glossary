@@ -1,0 +1,25 @@
+{
+    "title": "web",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "web",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Design"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer",
+        "Merchant"
+    ],
+    "usage": "Not “Web” with initial cap."
+}

@@ -1,0 +1,25 @@
+{
+    "title": "popup window",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "popup window",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [
+        "popup",
+        "modal",
+        "modal window"
+    ],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [],
+    "longDefinition": "Can be used interchangeably for \"popup window\" and \"modal window\"."
+}

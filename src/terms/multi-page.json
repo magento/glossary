@@ -1,0 +1,20 @@
+{
+    "title": "multi-page",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "multi-page",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": []
+}

@@ -1,0 +1,23 @@
+{
+    "title": "IIS",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "IIS",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [
+        "Internet Information Services"
+    ],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Programming"
+    ],
+    "userTags": [],
+    "usage": "A web server used for the Windows NT family of operating systems. Use IIS on first reference."
+}

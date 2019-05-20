@@ -1,0 +1,32 @@
+{
+    "title": "CVM",
+    "types": [
+        "glossary",
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "CVM",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [
+        "Cardholder Verification Method"
+    ],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing",
+        "Order"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "An abbreviation for \"Cardholder Verification Method\". A way to verify the identity of the customer by confirming a 3-digit or 4-digit credit card security code with the payment processor.",
+    "usage": "CVM can be used on first reference.",
+    "referenceLinks": [
+        "security code"
+    ]
+}

@@ -1,0 +1,52 @@
+.searchResults {
+  display: none;
+  position: absolute;
+  background: #fff;
+  border: 1px solid #cac3b4;
+  padding: 8px 0;
+  margin: 0px;
+  width: 100%;
+  top: 50px;
+  z-index: 3;
+  max-height: 350px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.searchResultsSubtitle {
+  color: #757575;
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 20px 20px 8px;
+  letter-spacing: 0.1em;
+}
+
+.searchResults.active {
+  display: block;
+  padding: 0px;
+}
+
+.results {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.result {
+  margin: 0;
+  padding: 0;
+}
+
+.resultLink {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 0.5em 1.5em;
+}
+
+.resultLink:hover {
+  text-decoration: none;
+  background-color: #f3f3f3;
+}

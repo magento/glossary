@@ -1,0 +1,24 @@
+{
+    "title": "module (training)",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "module (training)",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Magento Software"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "The smaller sections within an on-demand course."
+}

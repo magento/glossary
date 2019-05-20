@@ -1,0 +1,24 @@
+{
+    "title": "complex data",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "complex data",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Programming"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "Data that is associated with multiple product options."
+}

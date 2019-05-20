@@ -1,0 +1,27 @@
+{
+    "title": "authorization",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "authorization",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Magento Software"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "To grant permission for a user or service to perform actions, or gain access to resources.",
+    "referenceLinks": [
+        "capture"
+    ]
+}

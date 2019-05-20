@@ -1,0 +1,24 @@
+{
+    "title": "shoppability",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "shoppability",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "usage": "Do not use without describing what the term means, as the term's definition can vary."
+}

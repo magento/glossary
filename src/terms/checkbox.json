@@ -1,0 +1,20 @@
+{
+    "title": "checkbox",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "checkbox",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Design"
+    ],
+    "userTags": []
+}

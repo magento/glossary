@@ -1,0 +1,21 @@
+{
+    "title": "sync",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "sync",
+            "wordClasses": [
+                "v"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [],
+    "usage": "Not “synch”."
+}

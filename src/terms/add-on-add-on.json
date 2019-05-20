@@ -1,0 +1,27 @@
+{
+    "title": "add on, add-on",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "add on",
+            "wordClasses": [
+                "v"
+            ]
+        },
+        {
+            "form": "add-on",
+            "wordClasses": [
+                "n",
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "Marketing",
+    "contentTags": [
+        null
+    ],
+    "userTags": []
+}

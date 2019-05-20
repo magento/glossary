@@ -1,0 +1,24 @@
+{
+    "title": "batch processing",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "batch processing",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Programming"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "To perform a task or make a change to multiple items all at once, without manual repetition."
+}

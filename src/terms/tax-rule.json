@@ -1,0 +1,25 @@
+{
+    "title": "tax rule",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "tax rule",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UX",
+    "contentTags": [
+        "Business / Marketing"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer",
+        "Merchant"
+    ],
+    "shortDefinition": "A combination of a product tax class, customer tax class, and tax rate. This rule defines which tax calculation is applied."
+}

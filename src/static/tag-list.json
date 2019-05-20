@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Business",
+    "slug": "business"
+  },
+  {
+    "name": "Cloud",
+    "slug": "cloud"
+  },
+  {
+    "name": "Customer",
+    "slug": "customer"
+  },
+  {
+    "name": "Design",
+    "slug": "design"
+  },
+  {
+    "name": "Inventory",
+    "slug": "inventory"
+  },
+  {
+    "name": "Magento Software",
+    "slug": "magento-software"
+  },
+  {
+    "name": "Marketing",
+    "slug": "marketing"
+  },
+  {
+    "name": "Order",
+    "slug": "order"
+  },
+  {
+    "name": "Pricing",
+    "slug": "pricing"
+  },
+  {
+    "name": "Product",
+    "slug": "product"
+  },
+  {
+    "name": "Programming",
+    "slug": "programming"
+  }
+]

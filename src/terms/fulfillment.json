@@ -1,0 +1,24 @@
+{
+    "title": "fulfillment",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "fulfillment",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "The process of managing customer shipments."
+}

@@ -1,0 +1,27 @@
+{
+    "title": "one-page checkout",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "one-page checkout",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing",
+        "Design",
+        "Order",
+        "Programming"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer",
+        "Merchant"
+    ]
+}

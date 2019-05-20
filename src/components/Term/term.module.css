@@ -1,0 +1,38 @@
+.term {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.termTitle {
+    font-size: 1.75rem;
+    line-height: 1.8rem;
+    padding: 0;
+    margin: 20px 0 10px 0;
+}
+
+.wordClass {
+    font-size: .9rem;
+    line-height: .95rem;
+    margin: 0 0 20px 0;
+    color: #969696;
+}
+
+.relatedTermLink:after {
+    content: ",\00A0";
+    color: unset;
+}
+
+.relatedTermLink:last-of-type:after {
+    content: "";
+}
+
+.tagList {
+    padding: 25px 0;
+}
+
+.seeAlsoSection {
+    color: #757575;
+    font-size: .95rem;
+    line-height: 1rem;
+}

@@ -1,0 +1,20 @@
+{
+    "title": "drag-and-drop",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "drag-and-drop",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "Marketing",
+    "contentTags": [
+        "Design"
+    ],
+    "userTags": []
+}

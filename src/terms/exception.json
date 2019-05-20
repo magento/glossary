@@ -1,0 +1,24 @@
+{
+    "title": "exception",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "exception",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "DevDocs",
+    "contentTags": [
+        "Programming"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer"
+    ],
+    "shortDefinition": "An abnormal condition that requires special processing."
+}

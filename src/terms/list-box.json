@@ -1,0 +1,21 @@
+{
+    "title": "list box",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "list box",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Design",
+        "Programming"
+    ],
+    "userTags": []
+}

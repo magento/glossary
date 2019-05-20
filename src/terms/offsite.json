@@ -1,0 +1,20 @@
+{
+    "title": "offsite",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "offsite",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": []
+}

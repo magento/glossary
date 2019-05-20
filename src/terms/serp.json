@@ -1,0 +1,24 @@
+{
+    "title": "SERP",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "SERP",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "usage": "Abbreviation for \"search engine results page\". Use SERP on second reference."
+}

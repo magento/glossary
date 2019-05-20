@@ -1,0 +1,21 @@
+
+.navigationItem {
+  display: block;
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+  color: #333;
+}
+
+.navigationItem.active {
+  background: #E5F8F9;
+}
+
+
+.navigationItem:hover {
+  text-decoration: none !important;
+  background-color: #f3f3f3;
+}
+
+.navigationItem:visited {
+  color: #333;
+}

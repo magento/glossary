@@ -1,0 +1,27 @@
+{
+    "title": "fall back",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "fall back",
+            "wordClasses": [
+                "v"
+            ]
+        },
+        {
+            "form": "fallback",
+            "wordClasses": [
+                "adj",
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": []
+}

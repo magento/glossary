@@ -1,0 +1,24 @@
+{
+    "title": "usability",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "usability",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Design"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "Refers to the degree to which a product or service is easy to use by its customers."
+}
