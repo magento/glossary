@@ -3,9 +3,9 @@ name: Term Issue
 about: Create a request to update terms and definitions
 ---
 
-# Term Issue
+# Term issue
 
-## Terms and Definitions
+## Terms and definitions
 
 Term:
 
