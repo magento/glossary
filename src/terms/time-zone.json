@@ -1,0 +1,21 @@
+{
+    "title": "time zone",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "time zone",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [],
+    "usage": "Not “timezone”."
+}

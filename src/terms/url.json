@@ -1,0 +1,29 @@
+{
+    "title": "URL",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "URL",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [
+        "Uniform Resource Locator"
+    ],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Design"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "Abbreviation for \"Uniform Resource Locator\". The unique address of a page on the internet.",
+    "referenceLinks": [
+        "canonical URL"
+    ]
+}

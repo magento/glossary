@@ -1,0 +1,28 @@
+{
+    "title": "invoice comment",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "invoice comment",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "DevDocs",
+    "contentTags": [
+        "Business / Marketing",
+        "Order"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer"
+    ],
+    "shortDefinition": "Details the invoice history.",
+    "referenceLinks": [
+        "invoice"
+    ]
+}

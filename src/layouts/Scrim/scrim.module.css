@@ -1,0 +1,26 @@
+.default {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: grid;
+}
+
+.scrim {
+  visibility: visible;
+  composes: default;
+  background-color: #000000;
+  opacity: 0.4;
+  transition: opacity .2s ease;
+}
+
+.hidden {
+  composes: scrim;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0.5s, opacity 0.5s ease;
+}
+
+.noScroll {
+  overflow: hidden;
+}

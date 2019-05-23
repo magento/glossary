@@ -1,0 +1,30 @@
+{
+    "title": "Magento",
+    "types": [
+        "glossary",
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "Magento",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "DevDocs",
+    "contentTags": [
+        "Business / Marketing",
+        "Magento Software"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer"
+    ],
+    "shortDefinition": "The company — its full name is \"Magento Commerce\" and legally is called \"Magento, Inc.\" — includes several products in the following categories: digital commerce, order management, and other industry solutions. The Magento term is a registered trademark and a company name.",
+    "usage": "Use as an adjective but do not use as a noun in any form. For example, Magento system, Magento namespace, and so on.",
+    "referenceLinks": [
+        "Magento Trademark Requirements"
+    ]
+}

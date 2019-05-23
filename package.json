@@ -1,20 +1,40 @@
 {
   "name": "magento-glossary",
-  "description": "A single page application for Magento Glossary",
-  "version": "0.1.0",
-  "devDependencies": {
-    "copyfiles": "^1.0.0",
-    "uglify-js": "^2.7.4",
-    "browser-sync": "^2.18.2",
-    "node-sass": "^3.13.0"
+  "description": "Magento Glossary",
+  "version": "2.0.0",
+  "author": "James Calcaben <calcaben@adobe.com>",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "gatsby": "^2.3.17",
+    "gatsby-link": "^2.0.16",
+    "gatsby-plugin-lunr": "^1.4.0",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-source-filesystem": "^2.0.29",
+    "gatsby-transformer-json": "^2.1.11",
+    "gatsby-transformer-remark": "^2.3.8",
+    "json2yaml": "^1.1.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.0"
   },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
   "scripts": {
-    "copy": "echo '=> copying files' && ./node_modules/.bin/copyfiles favicon.ico index.html word-usage.html tooltip.html js/*.min.js js/templates/* css/* fonts/* images/* _site/ && ./node_modules/.bin/copyfiles -f _data/content-glossary.xml _site/data/",
-    "minify": "echo '=>minifying files' && ./node_modules/.bin/uglifyjs -c -o js/glossary.min.js js/glossary.js js/glossary.page.js js/glossary.page.filter.js js/glossary.page.renderer.js js/glossary.tooltip.js && ./node_modules/.bin/uglifyjs -c -o js/glossary.tooltip.min.js js/glossary.js js/glossary.tooltip.js",
-    "convert": "echo '=>converting excel file to xml' && python scripts/convert-excel-to-xml.py -i scripts/content-glossary.xlsx -o _data/content-glossary.xml",
-    "watch": "./node_modules/.bin/browser-sync start --server '_site' --files '_site'",
-    "scss": "echo '=> generating css from scss' && node_modules/.bin/node-sass --output-style compressed scss/glossary.scss css/glossary.min.css",
-    "deploy": "echo '=> deploying glossary files' && npm run minify && npm run scss && npm run copy",
-    "export": "echo '=> exporting glossary files' && npm run deploy && sed -i '' 's/http:\\/\\/localhost:3000/https:\\/\\/magento.github.io\\/glossary\\//' _site/js/glossary.min.js && sed -i '' 's/http:\\/\\/localhost:3000/https:\\/\\/magento.github.io\\/glossary\\//' _site/js/glossary.tooltip.min.js && ./node_modules/.bin/copyfiles -u 1 _site/* _site/*/* _site/*/*/*"
+    "build": "gatsby build",
+    "build:production": "gatsby build --prefix-paths",
+    "develop": "gatsby develop",
+    "format": "prettier --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "convert": "node scripts/json-to-markdown"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/magento/glossary"
   }
 }

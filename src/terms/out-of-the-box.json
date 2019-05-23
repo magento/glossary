@@ -1,0 +1,20 @@
+{
+    "title": "out-of-the-box",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "out-of-the-box",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "Marketing",
+    "contentTags": [
+        "Product"
+    ],
+    "userTags": []
+}

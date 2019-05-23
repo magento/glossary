@@ -1,0 +1,29 @@
+{
+    "title": "layout",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "layout",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Design",
+        "Magento Software"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "In the construction of a Magento page, a layout is a series of blocks assembled in a hierarchy, representing the structure of the page. \n\nPage layout files focus on the highest level of page structure (header, footer, main content area, left sidebar, etc.). Layout files then assemble content (blocks) into these different areas on the page.",
+    "referenceLinks": [
+        "layout instructions",
+        "block"
+    ]
+}

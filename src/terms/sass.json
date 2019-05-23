@@ -1,0 +1,31 @@
+{
+    "title": "Sass",
+    "types": [
+        "glossary",
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "Sass",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Design",
+        "Programming"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "Abbreviation for Syntactically Awesome Stylesheets.  A language that extends CSS — adding inline imports, mixins, nested rules, and variables — and keeps it well-organized with the assistance of the Compass style library.",
+    "usage": "\"Sass\" is used on first reference.",
+    "referenceLinks": [
+        "Compass",
+        "CSS"
+    ]
+}

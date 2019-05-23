@@ -1,0 +1,21 @@
+{
+    "title": "application",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "application",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [],
+    "usage": "Use “program” or “app” instead for shopper-facing content and use “application” in some technical contexts."
+}

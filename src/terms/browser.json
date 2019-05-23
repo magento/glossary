@@ -1,0 +1,21 @@
+{
+    "title": "browser",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "browser",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Design"
+    ],
+    "userTags": [],
+    "usage": "Not web browser."
+}

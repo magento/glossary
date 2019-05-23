@@ -1,0 +1,33 @@
+{
+    "title": "Less",
+    "types": [
+        "glossary",
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "Less",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [
+        "LESS"
+    ],
+    "primarySource": "DevDocs",
+    "contentTags": [
+        "Design",
+        "Programming"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer"
+    ],
+    "shortDefinition": "Stands for \"Leaner CSS\". Simply put, Less combines CSS language (which applies visual styles to HTML pages) with other items - embedded variables, mixins, functions, and other features. \n\nThis combination enables CSS to be themed and more maintainable and extendable. As a pre-processor, Less processes and exports its code into a standard CSS file that browsers can read and render into web pages.",
+    "usage": "Capitalized, \"Less\" can be used on first reference.",
+    "referenceLinks": [
+        "CSS",
+        "HTML"
+    ]
+}

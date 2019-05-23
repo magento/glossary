@@ -1,0 +1,25 @@
+{
+    "title": "credit memo comment",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "credit memo comment",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "DevDocs",
+    "contentTags": [
+        "Business / Marketing",
+        "Order"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer"
+    ],
+    "shortDefinition": "Details why a credit memo amount was credited to the customer."
+}

@@ -1,0 +1,21 @@
+{
+    "title": "tap",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "tap",
+            "wordClasses": [
+                "v"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Design"
+    ],
+    "userTags": [],
+    "usage": "Use “tap” or “select”, not “tap here”, “click” or “click here”."
+}

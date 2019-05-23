@@ -1,0 +1,25 @@
+{
+    "title": "shipment document",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "shipment document",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "DevDocs",
+    "contentTags": [
+        "Business / Marketing",
+        "Order"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer"
+    ],
+    "shortDefinition": "A document that accompanies a shipment. The document lists the products and their quantities in the delivery package."
+}

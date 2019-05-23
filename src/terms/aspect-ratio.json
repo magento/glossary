@@ -1,0 +1,24 @@
+{
+    "title": "aspect ratio",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "aspect ratio",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Design"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "The proportional relationship between the width and height of an image."
+}

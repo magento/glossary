@@ -1,0 +1,20 @@
+{
+    "title": "upgradeability",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "upgradeability",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": []
+}

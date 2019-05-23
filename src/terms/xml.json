@@ -1,0 +1,28 @@
+{
+    "title": "XML",
+    "types": [
+        "glossary",
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "XML",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [
+        "Extensible Markup Language"
+    ],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Programming"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer"
+    ],
+    "shortDefinition": "Abbreviation for \"Extensible Markup Language\". A markup format derived from SGML that is used to format information for publication and distribution.",
+    "usage": "\"XML\" can be used on first reference. Use \"an\" before. Example: “an XML file”."
+}

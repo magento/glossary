@@ -1,0 +1,26 @@
+{
+    "title": "operating system",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "operating system",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [
+        "OS"
+    ],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Programming"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer"
+    ],
+    "usage": "\"OS\" can be used on second reference."
+}

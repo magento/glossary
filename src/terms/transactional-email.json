@@ -1,0 +1,24 @@
+{
+    "title": "transactional email",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "transactional email",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "Transactional email is a legal term that defines automated messages which are sent to customers in response to a specific event or transaction."
+}

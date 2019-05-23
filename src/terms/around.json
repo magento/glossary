@@ -1,0 +1,21 @@
+{
+    "title": "around",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "around",
+            "wordClasses": [
+                "adv"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [],
+    "usage": "Use “about” or “for” instead. Example: We had discussions about corporate buzzwords and how to treat them."
+}

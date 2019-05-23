@@ -1,0 +1,21 @@
+{
+    "title": "giveaway",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "giveaway",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [],
+    "usage": "Not “give-away”."
+}

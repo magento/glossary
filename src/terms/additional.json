@@ -1,0 +1,21 @@
+{
+    "title": "additional",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "additional",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [],
+    "usage": "Use “more” instead."
+}

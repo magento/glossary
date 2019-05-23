@@ -1,0 +1,25 @@
+{
+    "title": "sign up",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "sign up",
+            "wordClasses": [
+                "v"
+            ]
+        }
+    ],
+    "synonyms": [
+        "enroll",
+        "join",
+        "create an account"
+    ],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [],
+    "usage": "Don't use enroll."
+}

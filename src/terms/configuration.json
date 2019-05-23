@@ -1,0 +1,29 @@
+{
+    "title": "configuration",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "configuration",
+            "wordClasses": [
+                "n"
+            ]
+        },
+        {
+            "form": "configure",
+            "wordClasses": [
+                "v"
+            ]
+        }
+    ],
+    "synonyms": [
+        "config"
+    ],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [],
+    "usage": "For merchants or shoppers, use “setup” or “set up”. For developers, “configuration” is appropriate in technical contexts."
+}

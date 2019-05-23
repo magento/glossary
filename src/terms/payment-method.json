@@ -1,0 +1,25 @@
+{
+    "title": "Payment Method",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "Payment Method",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing",
+        "Order"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "A way for the customer to pay for merchandise. Payment methods can be internal or external. \n\nThe Payment Methods section of the System Configuration includes all basic payment methods and gateways."
+}

@@ -1,0 +1,26 @@
+{
+    "title": "web page",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "web page",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Design",
+        "Programming"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer",
+        "Merchant"
+    ],
+    "usage": "Not “webpage”."
+}

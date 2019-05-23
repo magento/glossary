@@ -1,0 +1,21 @@
+{
+    "title": "de-",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "de-",
+            "wordClasses": [
+                "adv"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        null
+    ],
+    "userTags": [],
+    "usage": "Hyphenate only if the meaning is unclear without it."
+}

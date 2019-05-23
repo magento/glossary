@@ -1,0 +1,31 @@
+{
+    "title": "extension",
+    "types": [
+        "glossary",
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "extension",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "DevDocs",
+    "contentTags": [
+        "Magento Software"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer"
+    ],
+    "shortDefinition": "Code that extends or customizes Magento behavior. You can optionally package and distribute an extension on Magento Marketplace or another extension distribution system. A Magento extension can include modules, themes, and language packs.",
+    "usage": "Use \"extend\", \"extensible\", \"extensibility\", and \"extensibility point\" as generic terms.",
+    "referenceLinks": [
+        "Magento component",
+        "module",
+        "package"
+    ]
+}

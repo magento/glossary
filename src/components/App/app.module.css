@@ -1,0 +1,44 @@
+.default {
+}
+
+.intro,
+.termsListLabel {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.introDescription {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  margin: 0;
+  padding-left: 30px;
+
+  border-left: solid 3px #f26322;
+}
+
+.introDescription p {
+  margin: 0;
+}
+
+.termsListLabel {
+  margin-top: 2em;
+  margin-bottom: 0;
+}
+
+.introLinks {
+  margin-top: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.introLink {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+@media (min-width: 769px) {
+  .introLinks {
+    grid-template-columns: 160px 160px 1fr;
+  }
+}

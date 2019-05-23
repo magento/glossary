@@ -1,0 +1,24 @@
+{
+    "title": "High-Level Requirements",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "High-Level Requirements",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "usage": "Used with title-case capitalization in Magento Expert Consulting Group (ECG) methodology docs."
+}

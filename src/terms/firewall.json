@@ -1,0 +1,21 @@
+{
+    "title": "firewall",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "firewall",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Programming"
+    ],
+    "userTags": [],
+    "usage": "Not “fire wall”."
+}

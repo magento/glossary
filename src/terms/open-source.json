@@ -1,0 +1,24 @@
+{
+    "title": "open source",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "open source",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Programming"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer"
+    ],
+    "usage": "Not “open-source”. Hyphenate when using the term as a modifier."
+}

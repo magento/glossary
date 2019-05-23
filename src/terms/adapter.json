@@ -1,0 +1,24 @@
+{
+    "title": "adapter",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "adapter",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "DevDocs",
+    "contentTags": [
+        "Programming"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer"
+    ],
+    "shortDefinition": "A class that enables two otherwise incompatible systems to work together without modifying the systems' source code. Examples include database adapters, cache adapters, filesystem adapters, postprocessor libraries adapters and other types of computing adapters."
+}

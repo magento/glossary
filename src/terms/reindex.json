@@ -1,0 +1,20 @@
+{
+    "title": "reindex",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "reindex",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Programming"
+    ],
+    "userTags": []
+}

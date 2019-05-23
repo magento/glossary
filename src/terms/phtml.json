@@ -1,0 +1,29 @@
+{
+    "title": "PHTML",
+    "types": [
+        "glossary",
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "PHTML",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Programming"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer"
+    ],
+    "shortDefinition": "An HTML page including PHP script.",
+    "referenceLinks": [
+        "HTML",
+        "PHP"
+    ]
+}

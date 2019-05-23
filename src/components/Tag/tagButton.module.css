@@ -1,0 +1,43 @@
+.reset {
+  background: none;
+  border: 1px solid #959595;
+}
+
+.button {
+  composes: reset;
+  border-radius: 4px;
+  line-height: 14px;
+  font-size: 12px;
+  padding: 5px 10px;
+  margin: 0 8px 8px 0;
+  color: #757575;
+  transition: all .1s;
+}
+
+.button:hover {
+  border-color: #323232;
+  color: #323232;
+}
+
+.tagButtonFilter {
+  composes: button;
+  margin-left: 5px;
+}
+
+.tagButtonFilter:after {
+  content: '×';
+  font-weight: bold;
+  position: relative;
+  left: 5px;
+}
+
+.tagFilter {
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.tagFilterLabel {
+  font-size: .75rem;
+  color: #9B9B9B;
+}

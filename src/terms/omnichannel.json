@@ -1,0 +1,24 @@
+{
+    "title": "omnichannel",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "omnichannel",
+            "wordClasses": [
+                "adj"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "usage": "Not “omni-channel”."
+}

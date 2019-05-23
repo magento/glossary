@@ -1,0 +1,31 @@
+{
+    "title": "bundle product",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "bundle product",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UX",
+    "contentTags": [
+        "Magento Software",
+        "Product"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer",
+        "Merchant"
+    ],
+    "shortDefinition": "Lets customers assemble a \"build your own\" customizable product from a variety of options and configurations. Each item in the bundle is either a separate simple or virtual product.",
+    "referenceLinks": [
+        "simple product",
+        "virtual product",
+        "product types"
+    ]
+}

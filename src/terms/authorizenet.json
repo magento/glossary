@@ -1,0 +1,24 @@
+{
+    "title": "Authorize.Net",
+    "types": [
+        "usage"
+    ],
+    "formTypes": [
+        {
+            "form": "Authorize.Net",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Programming"
+    ],
+    "userTags": [
+        "Internal",
+        "Developer"
+    ],
+    "usage": "Note caps."
+}

@@ -1,0 +1,25 @@
+{
+    "title": "shipment",
+    "types": [
+        "glossary"
+    ],
+    "formTypes": [
+        {
+            "form": "shipment",
+            "wordClasses": [
+                "n"
+            ]
+        }
+    ],
+    "synonyms": [],
+    "primarySource": "UserDocs",
+    "contentTags": [
+        "Business / Marketing",
+        "Order"
+    ],
+    "userTags": [
+        "Internal",
+        "Merchant"
+    ],
+    "shortDefinition": "A shipment contains products to be delivered and generates a record of the products in an order that have been shipped. More than one shipment can be associated with a single order."
+}
