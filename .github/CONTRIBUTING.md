@@ -7,57 +7,11 @@ We welcome all types of contributions; from minor typo fixes to new terms.
 Magento's tech writer team and [Community Maintainers](https://devdocs.magento.com/guides/v2.3/contributor-guide/contributors.html#/community-maintainers) review issues and pull requests on a regular basis, and we do our best to address all issues as soon as possible.
 Working through the backlog takes time, though, so we appreciate your patience.
 
-## Rewards for contributions
-
-DevDocs works with Magento Community Engineering teams and projects.
-As you contribute PRs, you gain [Contribution Points](https://devdocs.magento.com/guides/v2.3/contributor-guide/contributing.html#points). We track [Contributors](https://devdocs.magento.com/guides/v2.3/contributor-guide/contributors.html#/individual-contributors) and [Maintainers](https://devdocs.magento.com/guides/v2.3/contributor-guide/maintainers.html) with Community Engineering.
-
-## Get started
-
-![Get started workflow](https://devdocs.magento.com/common/images/contribute-prerequisites.png)
-
-1. Make sure you have a [GitHub account](https://github.com/signup/free) with [Two-Factor Authentication](https://devdocs.magento.com/guides/v2.3/contributor-guide/contributing.html#two-factor)(2FA) to your account. Partners are required to add 2FA protection when contributing to Magento repositories.
-1. Sign the [Magento Contributor Agreement](https://magento.com/content/magento-contributor-agreement).
-1. [Fork](https://help.github.com/articles/fork-a-repo/) the [Glossary repository](https://github.com/magento/glossary). Remember to [sync your fork](https://help.github.com/articles/syncing-a-fork/) and update branches as needed.
-1. Review the [Glossary guidelines](#contribution-guidelines).
-
-## Contribute terms
-
-![Contributing workflow](https://devdocs.magento.com/common/images/contribute-write-submit-pr.png)
-
-1. Create a new branch on your fork. Use a name that best describes the work, or references a GitHub issue number.
-1. Edit or create markdown (`.md`) files in your branch.
-1. When ready, push your branch to your fork.
-
-### Create a pull request
-
-Create a PR to the [Glossary repository](https://github.com/magento/glossary). Fill out as much information as possible and link any GitHub issues.
-
-Choose a contribution type:
-
-- New Topic: Adds terms
-- Major Update: Add significant definition and content to the terms
-- Technical: Changes to technical content/code/processes/naming conventions (any change to technical content)
-- Editorial: Typos, grammatical inconsistencies, or minor rewrites
-
-If you are updating an example from source code, include a link to the file in the repository.
-
-The DevDocs team and Maintainers will review the PR and help with formatting and navigation.
-
-**Note:** If you have not signed the [Magento Contributor Agreement](https://magento.com/content/magento-contributor-agreement), the PR provides a link. We require a signed form and agreement to the terms for contribution.
-
 ## Contribution guidelines
 
-Write content using [kramdown](https://kramdown.gettalong.org/), which is a simple markup language. We use kramdown, Liquid, and [Jekyll](https://jekyllrb.com/) to generate a static site. Check [Glossary Template](https://github.com/magento/glossary/wiki/Glossary-Template) for a term template and options.
+Follow the general rules and instructions described in the [Magento DevDocs contribution guidelines][].
 
-You can update existing or add new terms in the terms directory.
-
-The following guidelines may answer most of your questions and help you get started:
-
-1. Check [existing pull requests](https://github.com/magento/devdocs/pulls) and make sure you are not duplicating work!
-1. For large contributions or changes that include multiple files, [open an issue](#report-an-issue) and discuss it with us first. This may further prevent duplicate or unnecessary effort.
-1. [Chunk many small/medium changes](#tips-for-writing-content) into one or two PRs. This helps us to efficiently and effectively facilitate your contribution.
-1. Familiarize yourself with existing [DevDocs](https://devdocs.magento.com) and [User Guide](https://magento.com/technical-resources) documentation. Look through and search the guides for potential terms and additional information to provide.
+[Magento DevDocs contribution guidelines]: https://github.com/magento/devdocs/blob/master/.github/CONTRIBUTING.md
 
 ## Tips for writing content
 
