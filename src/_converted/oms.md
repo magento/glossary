@@ -13,7 +13,7 @@
     - "Magento Order Management"
   relatedTerms:
     - "mom"
-    - "order management"
+    - "order-management"
 ---
 
 [OMS](https://omsdocs.magento.com), also known as Magento Order Management (MOM), is Magento's Order Management System offering.
