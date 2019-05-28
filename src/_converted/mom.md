@@ -13,7 +13,7 @@
     - "Magento Order Management"
   relatedTerms:
     - "oms"
-    - "order management"
+    - "order-management"
 ---
 
 [MOM](https://omsdocs.magento.com), also known as the Order Management System ([OMS](https://glossary.magento.com/oms/)), is a flexible and affordable solution for managing, selling, and fulfilling inventory from any sales channel. OMS provides a seamless customer experience, which increases sales while reducing costs, and accelerates the time to market.
