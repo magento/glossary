@@ -42,5 +42,13 @@
   {
     "name": "Programming",
     "slug": "programming"
+  },
+  {
+    "name": "Feature",
+    "slug": "feature"
+  },
+  {
+    "name": "Order Management",
+    "slug": "order-management"
   }
 ]
