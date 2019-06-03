@@ -3,10 +3,12 @@ import Helmet from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
 import { Header, Panel } from '../../layouts'
 import Navigation from '../Navigation'
+import Favicon from './Favicon'
 import '../../static/css/reset.css'
 import '../../templates/globals.css'
 
 import styles from './layout.module.css'
+
 
 const Layout = props => {
   const { children, currentPageUrl } = props
@@ -44,7 +46,8 @@ const Layout = props => {
         title={site.siteMetadata.title}
         meta={[{ name: 'description', content: site.siteMetadata.description }]}
       />
-
+      <Favicon />
+      
       <div className={styles.container}>
         <header>
           <Header
