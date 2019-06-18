@@ -5,11 +5,12 @@
  */
 
 const path = require(`path`)
+const fs = require('fs')
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark`) {
-    const slug = `/${path.basename(node.fileAbsolutePath, '.md')}/`;
+    const slug = `/${path.basename(node.fileAbsolutePath, '.md')}/`
     createNodeField({
       node,
       name: `slug`,
@@ -25,11 +26,17 @@ exports.createPages = ({ graphql, actions }) => {
       allMarkdownRemark {
         edges {
           node {
+            excerpt
+            html
             fields {
               slug
             }
             frontmatter {
+              title
+              wordClasses
               tags
+              synonyms
+              relatedTerms
             }
           }
         }
@@ -43,6 +50,7 @@ exports.createPages = ({ graphql, actions }) => {
       }
     }
   `).then(result => {
+    // Create individual html pages for each markdown file
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
         path: node.fields.slug,
@@ -53,13 +61,43 @@ exports.createPages = ({ graphql, actions }) => {
       })
     })
 
+    // Create tag pages
     result.data.allTagListJson.edges.forEach(node => {
       createPage({
         path: `/tag/${node.node.slug}/`,
         component: path.resolve('./src/templates/tag.js'),
         context: {
-          slug: node.node.slug
+          slug: node.node.slug,
         },
+      })
+    })
+
+    // Create JSON data from markdown and frontmatter for external service consumption
+    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+      let data = {
+        path: node.fields.slug,
+        tags: node.frontmatter.tags,
+        excerpt: node.excerpt,
+        title: node.frontmatter.title,
+        wordClasses: node.frontmatter.wordClasses,
+        synonyms: node.frontmatter.synonyms,
+        relatedTerms: node.frontmatter.relatedTerms,
+      }
+      fs.mkdir('public'.concat(data.path), { recursive: true }, err => {
+        if(err){
+          console.error(err);
+          return;
+        }
+
+        fs.writeFile(
+          'public'.concat(data.path, 'index.json'),
+          JSON.stringify(data),
+          err => {
+            if (err) {
+              console.error(err)
+            }
+          }
+        )
       })
     })
   })
