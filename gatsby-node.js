@@ -73,24 +73,23 @@ exports.createPages = ({ graphql, actions }) => {
     })
 
     // Create JSON data from markdown and frontmatter for external service consumption
-    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-      let data = {
-        path: node.fields.slug,
-        tags: node.frontmatter.tags,
-        excerpt: node.excerpt,
-        title: node.frontmatter.title,
-        wordClasses: node.frontmatter.wordClasses,
-        synonyms: node.frontmatter.synonyms,
-        relatedTerms: node.frontmatter.relatedTerms,
+    fs.mkdir(path.join('public', 'data'), { recursive: true }, err => {
+      if (err) {
+        console.error(err)
+        return
       }
-      fs.mkdir('public'.concat(data.path), { recursive: true }, err => {
-        if(err){
-          console.error(err);
-          return;
+      result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+        let data = {
+          path: node.fields.slug,
+          tags: node.frontmatter.tags,
+          excerpt: node.excerpt,
+          title: node.frontmatter.title,
+          wordClasses: node.frontmatter.wordClasses,
+          synonyms: node.frontmatter.synonyms,
+          relatedTerms: node.frontmatter.relatedTerms,
         }
-
         fs.writeFile(
-          'public'.concat(data.path, 'index.json'),
+          path.join('public', 'data', path.basename(data.path) + '.json'),
           JSON.stringify(data),
           err => {
             if (err) {
