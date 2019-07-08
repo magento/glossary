@@ -1,14 +1,13 @@
 .main {
   max-width: 900px;
-  display: grid;
-  grid-template-columns: 20px auto 20px;
-  grid-row-gap: 0;
-  grid-column-gap: 0;
+  display: block;
+  margin: 0;
+  padding: 0 20px;
 }
 
 @media (min-width: 769px) {
   .main {
-    grid-template-columns: 1fr 10fr 1fr;
+    padding: 0 50px;
   }
 }
 
@@ -47,6 +46,7 @@ main {
 @media only screen and (max-width: 768px) {
   .container {
     grid-template-columns: none;
+    grid-template-areas: 'header' 'content';
   }
   .nav {
     width: 100%;
