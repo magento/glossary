@@ -45,7 +45,9 @@ const Layout = props => {
       <Helmet
         title={site.siteMetadata.title}
         meta={[{ name: 'description', content: site.siteMetadata.description }]}
-      />
+      >
+        <html lang="en" />
+      </Helmet>
       <Favicon />
       
       <div className={styles.container}>
