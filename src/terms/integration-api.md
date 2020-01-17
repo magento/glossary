@@ -6,7 +6,7 @@
     - "programming"
   synonyms:
     - "API"
-    - "web API"
+    - "web-api"
   relatedTerms:
     - "api"
 ---

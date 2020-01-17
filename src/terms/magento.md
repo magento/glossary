@@ -10,7 +10,6 @@
     - "Magneto"
     - "magenta"
   relatedTerms:
-    - "magento-trademark-requirements"
     - "adobe"
 ---
 The company — "Magento" or "Magento, An Adobe Company" — includes several products in the following categories: digital commerce, order management, and other industry solutions. The Magento term is a registered trademark and a company name.

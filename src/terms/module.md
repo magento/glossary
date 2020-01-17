@@ -6,8 +6,6 @@
     - "magento-software"
   synonyms: []
   relatedTerms:
-    - "module-reference"
-    - "magento-module"
     - "php"
     - "xml"
     - "block"

@@ -7,7 +7,7 @@
     - "product"
   synonyms: []
   relatedTerms:
-    - "cart-rule"
-    - "catalog-rule"
+    - "cart-rules"
+    - "catalog-rules"
 ---
 Includes cart and catalog rules, which used to price a product for promotions.
