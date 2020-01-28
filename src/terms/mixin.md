@@ -7,7 +7,6 @@
   synonyms: []
   relatedTerms:
     - "less"
-    - "magento-ui-library"
     - "ui-component"
 ---
 A class that contains a combination of methods from other classes. Mixins encourage code reuse and can be used to avoid the inheritance ambiguity that multiple inheritance can cause (the diamond problem), or to work around lack of support for multiple inheritance in a language.

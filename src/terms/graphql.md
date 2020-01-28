@@ -15,7 +15,7 @@
 ---
 [GraphQL](https://graphql.org/) is a data query language developed internally by Facebook in 2012 before being publicly released in 2015. Magento implements GraphQL to provide an alternative to REST and SOAP web APIs for frontend development.
 
-[PWA Studio](https://magento-research.github.io/pwa-studio/) uses GraphQL for development. GraphQL is a specification for a data query language on the client side and a service layer on the server side. It is often seen as an alternative to using REST endpoints.
+[PWA Studio](https://github.com/magento/pwa-studio) uses GraphQL for development. GraphQL is a specification for a data query language on the client side and a service layer on the server side. It is often seen as an alternative to using REST endpoints.
 
 One of the main advantages GraphQL has over REST is that a single GraphQL endpoint can accommodate requests for any combination of X, Y, and Z pieces of data, whereas REST requires specialized endpoints for different data request combinations. Unlike REST, which can require multiple server requests to aggregate data, a single GraphQL request returns only the data needed and nothing more.
 

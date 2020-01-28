@@ -7,7 +7,7 @@
   synonyms:
     - "PaaS"
   relatedTerms:
-    - "cloud services"
+    - "cloud-services"
     - "payments-as-a-service"
     - "software-as-a-service"
 ---

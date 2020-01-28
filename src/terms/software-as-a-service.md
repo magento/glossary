@@ -7,7 +7,7 @@
   synonyms:
     - "SaaS"
   relatedTerms:
-    - "cloud services"
+    - "cloud-services"
     - "payments-as-a-service"
     - "platform-as-a-service"
 ---

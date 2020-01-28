@@ -8,6 +8,6 @@
   relatedTerms:
     - "composer-package"
     - "language-package"
-    - "meta-package"
+    - "metapackage"
 ---
 The process of creating a distributable module for Magento Marketplace or another distribution system.
