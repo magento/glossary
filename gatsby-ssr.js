@@ -1,7 +1,12 @@
-/**
- * Implement Gatsby's SSR (Server Side Rendering) APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/ssr-apis/
- */
+/*
+Copyright 2019 Adobe
+All Rights Reserved.
 
- // You can delete this file if you're not using it
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe. 
+*/
+
+// Implement Gatsby's SSR (Server Side Rendering) APIs in this file.

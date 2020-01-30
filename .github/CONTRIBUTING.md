@@ -7,6 +7,14 @@ We welcome all types of contributions; from minor typo fixes to new terms.
 Magento's tech writer team and [Community Maintainers](https://devdocs.magento.com/guides/v2.3/contributor-guide/contributors.html#/community-maintainers) review issues and pull requests on a regular basis, and we do our best to address all issues as soon as possible.
 Working through the backlog takes time, though, so we appreciate your patience.
 
+## Contributor License Agreement
+
+All third-party contributions to this project must be accompanied by a signed contributor
+license agreement. This gives Adobe permission to redistribute your contributions
+as part of the project. [Sign our CLA](https://opensource.adobe.com/cla.html). You
+only need to submit an Adobe CLA one time, so if you have submitted one previously,
+you are good to go!
+
 ## Contribution guidelines
 
 Follow the general rules and instructions described in the [Magento DevDocs contribution guidelines][].
