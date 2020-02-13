@@ -8,4 +8,4 @@
   relatedTerms:
     - "Adobe"
 ---
-[Adobe Stock](https://stock.adobe.com/) is a new service that provides designers and businesses with access to 90 million high-quality, curated, royalty-free photos, vectors, illustrations, templates, and 3D assets, for all their creative projects.
+[Adobe Stock](https://stock.adobe.com/) is an on-demand service that provides designers and businesses with access to 90 million curated high-quality, royalty-free photos, vectors, illustrations, templates, and 3D assets for creative projects.
