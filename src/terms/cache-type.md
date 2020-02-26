@@ -5,7 +5,11 @@
   tags:
     - "programming"
   synonyms: []
-  relatedTerms:
-    - "cache-types"
 ---
-A cache stores data so that future calls for that data can be loaded quicker, and Magento includes these types: configuration, layout, block HTML layout, full page (the most well-known), collections, DDL, EAV, reflection, translation, integration configuration, integration API configuration, web services configuration. Other types can be created and defined.
+A cache stores data so that future calls for that data can be loaded quicker.
+
+Magento Open Source includes these types: Configuration, Layouts, Block HTML output, Collections Data, Reflection Data, Database DDL operations, Compiled Config, EAV types and attributes, Customer Notification, Integrations Configuration, Integrations API Configuration, Page Cache (the most well-known), Web Services Configuration, Translations.
+
+Also, Magento Commerce includes these additional types: Target Rule, Google Product Cache, Vertex.
+
+Other types can be created and defined.
