@@ -1,3 +1,5 @@
+# Contributions
+
 ## Contribute to Magento Glossary
 
 Share your knowledge with the community by contributing to Magento Glossary, part of Magento DevDocs!
@@ -82,7 +84,7 @@ Example term:
 | `wordClasses` | Type for the term: adjective, noun, verb. One or more.  | Yes |
 | `tags` | Groups terms per tag, 1 required. See the [Tag Reference](https://github.com/magento/glossary/wiki/Glossary-Template#tag-reference).  | Yes |
 | `synonyms`  |  List of synonyms (comma delimited) to aid with searches (Algolia). This does not display in the output. |  |
-|  `relatedTerms`  |  The markdown file name for another term in this glossary. For example 'magento-admin` adds a link to `magento-admin.md` to this term. A term .md file must be in the repo to link. |  |
+|  `relatedTerms`  |  The markdown file name for another term in this glossary. For example `magento-admin` adds a link to `magento-admin.md` to this term. A term .md file must be in the repo to link. |  |
 | `readMore`  | Full URL links to matching Documentation, Wiki pages, Repos, etc.  |  |
 
 ## Report an issue
