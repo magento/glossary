@@ -9,6 +9,6 @@
     - "area"
     - "magento-admin"
 ---
-The internal area name assigned to the Magento Admin.
+The internal area name assigned to the Admin.
 
-Learn more: [Magento User Guide](https://docs.magento.com/m2/ce/user_guide/getting-started.html)
+Learn more: [Adobe Commerce User Guide](https://docs.magento.com/m2/ce/user_guide/getting-started.html)
