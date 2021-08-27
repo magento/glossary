@@ -13,6 +13,6 @@ Area is an abstract term for a Magento application scope. Areas are logical comp
 
 Magento areas include:
 
-* Magento Admin (adminhtml)
+* Admin (adminhtml)
 * Storefront (frontend)
 * Web API REST (webapi_rest)
