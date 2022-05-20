@@ -1,5 +1,5 @@
 ---
-  title: "web application firewal"
+  title: "web application firewall"
   wordClasses:
     - "noun"
   tags:
