@@ -45,7 +45,7 @@ jobs:
         uses: github/super-linter/slim@v4.9.2
         env:
           VALIDATE_ALL_CODEBASE: false
-          DEFAULT_BRANCH: master
+          DEFAULT_BRANCH: main
           VALIDATE_BASH: true
           VALIDATE_BASH_EXEC: true
           VALIDATE_CSS: true
