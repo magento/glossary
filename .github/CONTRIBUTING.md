@@ -105,8 +105,7 @@ You have a couple of options to enter an issue:
 
 Have a question? Need help? Magento DevDocs, Maintainers, and other Contributors are available through:
 
-- [Slack](https://magentocommeng.slack.com/messages/CAN932A3H) ([Join us](http://tinyurl.com/engcom-slack))
-- [Twitter @MagentoDevDocs](https://twitter.com/MagentoDevDocs)
-- [E-mail](mailto:DL-Magento-Doc-Feedback@magento.com)
+-  [Slack](https://magentocommeng.slack.com/archives/CAN932A3H) ([Join us](https://opensource.magento.com/slack))
+-  [Twitter @AdobeCommrcDocs](https://twitter.com/AdobeCommrcDocs)
 
 Thank you for contributing your brilliance to Magento DevDocs!!
