@@ -29,13 +29,13 @@ Focus on the content with useful information, code samples, and important notes 
 
 Use the following guidelines to help you with the writing process:
 
-- Define the term. What would be helpful for the community and developers?
-- Consider acronyms and synonyms. These help locate and define terms.
-- Keep your sentences concise.
-- Batch several small changes into a single pull request (instead of separate ones) to ensure your contributions get approved and merged quickly. Have several typo fixes across several terms? Batch them into one PR.
-- Remember to use active voice (not passive), write in the present tense, and use a friendly tone in second person. For example, _"The log captures commands, output..."_.
-- Provide links to additional documentation and information if appropriate.
-- Need help with format? See our [Glossary template](https://github.com/magento/glossary/wiki/Glossary-Template).
+-  Define the term. What would be helpful for the community and developers?
+-  Consider acronyms and synonyms. These help locate and define terms.
+-  Keep your sentences concise.
+-  Batch several small changes into a single pull request (instead of separate ones) to ensure your contributions get approved and merged quickly. Have several typo fixes across several terms? Batch them into one PR.
+-  Remember to use active voice (not passive), write in the present tense, and use a friendly tone in second person. For example, _"The log captures commands, output..."_.
+-  Provide links to additional documentation and information if appropriate.
+-  Need help with format? See our [Glossary template](https://github.com/magento/glossary/wiki/Glossary-Template).
 
 ### Edit metadata
 
@@ -96,8 +96,8 @@ Enter as much information as you can: definition updates, link fixes, tags, etc.
 
 You have a couple of options to enter an issue:
 
-- Have general feedback or a term to suggest? Create an issue on [GitHub Glossary](https://github.com/magento/devdocs/issues/new/choose).
-- Have feedback on a specific term? Click the **Give us feedback** link at the top right of the page to report on the currently open topic.
+-  Have general feedback or a term to suggest? Create an issue on [GitHub Glossary](https://github.com/magento/devdocs/issues/new/choose).
+-  Have feedback on a specific term? Click the **Give us feedback** link at the top right of the page to report on the currently open topic.
 
      ![Report an issue](https://devdocs.magento.com/common/images/contribute-feedback-link.png)
 
