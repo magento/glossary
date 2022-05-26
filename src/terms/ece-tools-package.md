@@ -9,6 +9,6 @@ tags:
 synonyms: []
 relatedTerms: []
 ---
-A set of scripts and tools designed to manage and deploy Adobe Commerce on cloud infrastructure projects. The `ece-tools` package simplifies many Adobe Commerce on cloud infrastructure processes, such as deploying to a Docker environment, managing crons, verifying project configuration, and applying Adobe patches and hot fixes. 
+A set of scripts and tools designed to help you manage and deploy many Adobe Commerce on cloud infrastructure processes, including deploying to a Docker environment, managing crons, verifying project configuration, and applying Adobe patches and hotfixes. 
 
 Learn more: [ece-tools package](https://devdocs.magento.com/cloud/reference/ece-tools-reference.html)

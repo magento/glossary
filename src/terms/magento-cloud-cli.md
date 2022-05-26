@@ -8,6 +8,6 @@
   synonyms: []
   relatedTerms: []
 ---
-Enables developers and system administrators the ability to manage Cloud projects and environments, perform routines and run automation tasks. The **magento-cloud CLI** extends the features and functionality of the project Web Interface.
+Extends the functionality of the Project Web Interface to enable developers and system administrators the functionality to manage Cloud projects and environments, perform routines, and run automation tasks using a command-line interface.
 
-Learn more:[magento-cloud CLI](https://devdocs.magento.com/cloud/reference/cli-ref-topic.html).
+Learn more: [magento-cloud CLI](https://devdocs.magento.com/cloud/reference/cli-ref-topic.html)
