@@ -9,7 +9,7 @@
 ---
 Adobe Commerce on cloud Pro architecture consists of a single Git repository with a master and three main environment branches for Integration, Staging and Production.
 
-* **Master**—Provides a master branch deployed to Platform-as-a-Service (PaaS) containers.
+* **Master**—Provides a master branch deployed to Platform-as-a-Service (PaaS)containers.
 * **Integration**—Provides a single environment branch, and you can create one additional, environment ranch. This allows for up to two active branches deployed to Platform-as-a-Service (PaaS) containers.
 * **Staging**—Provides a single environment branch deployed to dedicated Infrastructure-as-a-Service (IaaS) ontainers.
 * **Production**—Provides a single environment branch deployed to dedicated Infrastructure-as-a-Servic (IaaS) containers.

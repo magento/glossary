@@ -15,7 +15,7 @@ A resource provided over the internet that hosts or shares computer processing c
 Benefits of cloud services include:
 
 • Infrastructure costs avoided
-• Savings in infrastructure costs 
+• Savings in infrastructure costs
 • Applications can be implemented quicker
 • More uptime, when the system is working and available, due to redundancy
 • Less maintenance
