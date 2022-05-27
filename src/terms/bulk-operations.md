@@ -1,5 +1,5 @@
 ---
-  title: "batch processing"
+  title: "bulk operations"
   wordClasses:
     - "noun"
   tags:

@@ -9,4 +9,4 @@
   relatedTerms:
     - "keyword"
 ---
-The process of improving a website’s search engine rankings in order to increase valued visitors.
+Search engine optimization (SEO) is the process of improving a website’s search engine rankings in order to increase valued visitors.
