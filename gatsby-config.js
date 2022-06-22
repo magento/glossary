@@ -10,7 +10,6 @@ written permission of Adobe.
 */
 
 module.exports = {
-  pathPrefix: '/glossary',
   siteMetadata: {
     title: 'Glossary',
     description: 'Magento Glossary Project'
